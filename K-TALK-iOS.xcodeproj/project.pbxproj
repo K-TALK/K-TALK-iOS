@@ -26,6 +26,7 @@
 		CE72E8722AE76F6500988810 /* K_TALK_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE72E8712AE76F6500988810 /* K_TALK_iOSTests.swift */; };
 		CE72E87C2AE76F6500988810 /* K_TALK_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE72E87B2AE76F6500988810 /* K_TALK_iOSUITests.swift */; };
 		CE72E87E2AE76F6500988810 /* K_TALK_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE72E87D2AE76F6500988810 /* K_TALK_iOSUITestsLaunchTests.swift */; };
+		F597708B24CC15750874E79E /* Pods_K_TALK_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E1FCE52BD711C6EF220C3F /* Pods_K_TALK_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D76915BAF46835E0C376D24 /* Pods-K-TALK-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-K-TALK-iOS.release.xcconfig"; path = "Target Support Files/Pods-K-TALK-iOS/Pods-K-TALK-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		4EE5A805E144E7D3C4DEE88E /* Pods-K-TALK-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-K-TALK-iOS.debug.xcconfig"; path = "Target Support Files/Pods-K-TALK-iOS/Pods-K-TALK-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		B5E1FCE52BD711C6EF220C3F /* Pods_K_TALK_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_K_TALK_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6313E32AE798860073E7F2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CE72E8572AE76F6400988810 /* K-TALK-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "K-TALK-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE72E85A2AE76F6400988810 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +80,7 @@
 				CE6313D82AE7979C0073E7F2 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
 				CE6313DE2AE7979C0073E7F2 /* FirebaseFirestore in Frameworks */,
 				CE6313E22AE7979C0073E7F2 /* FirebaseFirestoreSwift in Frameworks */,
+				F597708B24CC15750874E79E /* Pods_K_TALK_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +101,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D0557D804EE64B3CB51E9E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4EE5A805E144E7D3C4DEE88E /* Pods-K-TALK-iOS.debug.xcconfig */,
+				0D76915BAF46835E0C376D24 /* Pods-K-TALK-iOS.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CE72E84E2AE76F6400988810 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +118,8 @@
 				CE72E8702AE76F6500988810 /* K-TALK-iOSTests */,
 				CE72E87A2AE76F6500988810 /* K-TALK-iOSUITests */,
 				CE72E8582AE76F6400988810 /* Products */,
+				0D0557D804EE64B3CB51E9E9 /* Pods */,
+				EDC99D8003BC9E0ADD0B697B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -148,6 +165,14 @@
 			path = "K-TALK-iOSUITests";
 			sourceTree = "<group>";
 		};
+		EDC99D8003BC9E0ADD0B697B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5E1FCE52BD711C6EF220C3F /* Pods_K_TALK_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -155,9 +180,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE72E8812AE76F6500988810 /* Build configuration list for PBXNativeTarget "K-TALK-iOS" */;
 			buildPhases = (
+				9BD2FA6564B71173A3824D97 /* [CP] Check Pods Manifest.lock */,
 				CE72E8532AE76F6400988810 /* Sources */,
 				CE72E8542AE76F6400988810 /* Frameworks */,
 				CE72E8552AE76F6400988810 /* Resources */,
+				E876A9247BFEAA9F012E968A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -288,6 +315,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9BD2FA6564B71173A3824D97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-K-TALK-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E876A9247BFEAA9F012E968A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-K-TALK-iOS/Pods-K-TALK-iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-K-TALK-iOS/Pods-K-TALK-iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-K-TALK-iOS/Pods-K-TALK-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CE72E8532AE76F6400988810 /* Sources */ = {
@@ -473,6 +542,7 @@
 		};
 		CE72E8822AE76F6500988810 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EE5A805E144E7D3C4DEE88E /* Pods-K-TALK-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -501,6 +571,7 @@
 		};
 		CE72E8832AE76F6500988810 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D76915BAF46835E0C376D24 /* Pods-K-TALK-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
