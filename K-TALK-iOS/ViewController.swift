@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  K-TALK-iOS
 //
-//  Created by JungGue LEE on 2023/10/24.
+//  Created by JungGue LEE on 2023/10/24/13.
 //
 
 import UIKit
