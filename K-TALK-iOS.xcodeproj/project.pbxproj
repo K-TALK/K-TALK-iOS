@@ -19,7 +19,7 @@
 		CE6313E42AE798860073E7F2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE6313E32AE798860073E7F2 /* GoogleService-Info.plist */; };
 		CE72E85B2AE76F6400988810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE72E85A2AE76F6400988810 /* AppDelegate.swift */; };
 		CE72E85D2AE76F6400988810 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE72E85C2AE76F6400988810 /* SceneDelegate.swift */; };
-		CE72E85F2AE76F6400988810 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE72E85E2AE76F6400988810 /* ViewController.swift */; };
+		CE72E85F2AE76F6400988810 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE72E85E2AE76F6400988810 /* TutorialViewController.swift */; };
 		CE72E8622AE76F6400988810 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE72E8602AE76F6400988810 /* Main.storyboard */; };
 		CE72E8642AE76F6500988810 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE72E8632AE76F6500988810 /* Assets.xcassets */; };
 		CE72E8672AE76F6500988810 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE72E8652AE76F6500988810 /* LaunchScreen.storyboard */; };
@@ -54,7 +54,7 @@
 		CE72E8572AE76F6400988810 /* K-TALK-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "K-TALK-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE72E85A2AE76F6400988810 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE72E85C2AE76F6400988810 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE72E85E2AE76F6400988810 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE72E85E2AE76F6400988810 /* TutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
 		CE72E8612AE76F6400988810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE72E8632AE76F6500988810 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE72E8662AE76F6500988810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -107,7 +107,6 @@
 				4EE5A805E144E7D3C4DEE88E /* Pods-K-TALK-iOS.debug.xcconfig */,
 				0D76915BAF46835E0C376D24 /* Pods-K-TALK-iOS.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -139,7 +138,7 @@
 				CE6313E32AE798860073E7F2 /* GoogleService-Info.plist */,
 				CE72E85A2AE76F6400988810 /* AppDelegate.swift */,
 				CE72E85C2AE76F6400988810 /* SceneDelegate.swift */,
-				CE72E85E2AE76F6400988810 /* ViewController.swift */,
+				CE72E85E2AE76F6400988810 /* TutorialViewController.swift */,
 				CE72E8602AE76F6400988810 /* Main.storyboard */,
 				CE72E8632AE76F6500988810 /* Assets.xcassets */,
 				CE72E8652AE76F6500988810 /* LaunchScreen.storyboard */,
@@ -363,7 +362,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE72E85F2AE76F6400988810 /* ViewController.swift in Sources */,
+				CE72E85F2AE76F6400988810 /* TutorialViewController.swift in Sources */,
 				CE72E85B2AE76F6400988810 /* AppDelegate.swift in Sources */,
 				CE72E85D2AE76F6400988810 /* SceneDelegate.swift in Sources */,
 			);
@@ -556,6 +555,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -585,6 +585,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
