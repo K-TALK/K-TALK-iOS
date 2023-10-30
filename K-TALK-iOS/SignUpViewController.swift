@@ -9,7 +9,9 @@ import UIKit
 import Firebase
 
 class SignUpViewController: UIViewController{
-
+    
+    @IBOutlet weak var pwShowButton: UIButton!
+    @IBOutlet weak var reShowButton: UIButton!
     @IBOutlet weak var reTextField: UITextField!
     @IBOutlet weak var pwTextField: UITextField!
     @IBOutlet weak var PasswordConfirmed: UILabel!
@@ -21,6 +23,8 @@ class SignUpViewController: UIViewController{
         pwTextField.delegate = self
         emailTextField.delegate = self
         PasswordConfirmed.text = ""
+        pwTextField.isSecureTextEntry = true
+        reTextField.isSecureTextEntry = true
         // Do any additional setup after loading the view.
     }
     @IBAction func signUpButtonTouched(_ sender: UIButton) {
@@ -40,11 +44,28 @@ class SignUpViewController: UIViewController{
         Auth.auth().createUser(withEmail: userEmail, password: userPassword) { [self] authResult, error in
             // 이메일, 비밀번호 전송
             guard let user = authResult?.user, error == nil else {
-                print("이미 가입된 정보입니다.")
+                print("다시 시도해주세요")
                 return
             }
-           print("\(user.email!) 님의 회원가입이 완료되었습니다.")
-                self.dismiss(animated: true, completion: nil)
+            print("\(user.email!) 님의 회원가입이 완료되었습니다.")
+            self.dismiss(animated: true, completion: nil)
+        }
+    }
+    @IBAction func showButtonTouched(_ sender: Any) {
+        if pwTextField.isSecureTextEntry == true {
+            if let image = UIImage(systemName: "eye.fill") {
+                pwShowButton.setImage(image, for: .normal)
+                reShowButton.setImage(image, for: .normal)
+            }
+            pwTextField.isSecureTextEntry = false
+            reTextField.isSecureTextEntry = false
+        } else {
+            if let image = UIImage(systemName: "eye.slash.fill") {
+                pwShowButton.setImage(image, for: .normal)
+                reShowButton.setImage(image, for: .normal)
+            }
+            pwTextField.isSecureTextEntry = true
+            reTextField.isSecureTextEntry = true
         }
     }
 }
