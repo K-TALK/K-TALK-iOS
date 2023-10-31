@@ -10,6 +10,7 @@
 		A9C4EAAE2AEFB9D200B35B1C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9C4EAAD2AEFB9D200B35B1C /* GoogleService-Info.plist */; };
 		A9C4EAB22AF0B89000B35B1C /* SampleRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4EAB12AF0B89000B35B1C /* SampleRealm.swift */; };
 		A9C4EAB42AF0B8EE00B35B1C /* 동음이의어,다의어.json in Resources */ = {isa = PBXBuildFile; fileRef = A9C4EAB32AF0B8EE00B35B1C /* 동음이의어,다의어.json */; };
+		A9C4EAB62AF0B93200B35B1C /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4EAB52AF0B93200B35B1C /* TestViewController.swift */; };
 		CE6313D22AE7979C0073E7F2 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = CE6313D12AE7979C0073E7F2 /* FirebaseAnalytics */; };
 		CE6313D42AE7979C0073E7F2 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = CE6313D32AE7979C0073E7F2 /* FirebaseAnalyticsOnDeviceConversion */; };
 		CE6313D62AE7979C0073E7F2 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CE6313D52AE7979C0073E7F2 /* FirebaseAnalyticsSwift */; };
@@ -54,6 +55,7 @@
 		A9C4EAAD2AEFB9D200B35B1C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A9C4EAB12AF0B89000B35B1C /* SampleRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleRealm.swift; sourceTree = "<group>"; };
 		A9C4EAB32AF0B8EE00B35B1C /* 동음이의어,다의어.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "동음이의어,다의어.json"; path = "../../../Desktop/동음이의어,다의어.json"; sourceTree = "<group>"; };
+		A9C4EAB52AF0B93200B35B1C /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		B5E1FCE52BD711C6EF220C3F /* Pods_K_TALK_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_K_TALK_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE72E8572AE76F6400988810 /* K-TALK-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "K-TALK-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE72E85A2AE76F6400988810 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 				CE72E85C2AE76F6400988810 /* SceneDelegate.swift */,
 				A9C4EAB12AF0B89000B35B1C /* SampleRealm.swift */,
 				CE72E85E2AE76F6400988810 /* TutorialViewController.swift */,
+				A9C4EAB52AF0B93200B35B1C /* TestViewController.swift */,
 				CE72E8602AE76F6400988810 /* Main.storyboard */,
 				CE72E8632AE76F6500988810 /* Assets.xcassets */,
 				CE72E8652AE76F6500988810 /* LaunchScreen.storyboard */,
@@ -369,6 +372,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9C4EAB62AF0B93200B35B1C /* TestViewController.swift in Sources */,
 				CE72E85F2AE76F6400988810 /* TutorialViewController.swift in Sources */,
 				CE72E85B2AE76F6400988810 /* AppDelegate.swift in Sources */,
 				CE72E85D2AE76F6400988810 /* SceneDelegate.swift in Sources */,
