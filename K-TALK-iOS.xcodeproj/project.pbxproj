@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A93327672AF0CAE400A91BBC /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93327662AF0CAE400A91BBC /* SampleData.swift */; };
 		A9C4EAAE2AEFB9D200B35B1C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9C4EAAD2AEFB9D200B35B1C /* GoogleService-Info.plist */; };
 		A9C4EAB22AF0B89000B35B1C /* SampleRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4EAB12AF0B89000B35B1C /* SampleRealm.swift */; };
-		A9C4EAB42AF0B8EE00B35B1C /* 동음이의어,다의어.json in Resources */ = {isa = PBXBuildFile; fileRef = A9C4EAB32AF0B8EE00B35B1C /* 동음이의어,다의어.json */; };
 		A9C4EAB62AF0B93200B35B1C /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4EAB52AF0B93200B35B1C /* TestViewController.swift */; };
+		A9C4EAB82AF0BCBB00B35B1C /* 동음이의어,다의어.json in Resources */ = {isa = PBXBuildFile; fileRef = A9C4EAB72AF0BCBB00B35B1C /* 동음이의어,다의어.json */; };
 		CE6313D22AE7979C0073E7F2 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = CE6313D12AE7979C0073E7F2 /* FirebaseAnalytics */; };
 		CE6313D42AE7979C0073E7F2 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = CE6313D32AE7979C0073E7F2 /* FirebaseAnalyticsOnDeviceConversion */; };
 		CE6313D62AE7979C0073E7F2 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CE6313D52AE7979C0073E7F2 /* FirebaseAnalyticsSwift */; };
@@ -52,10 +53,11 @@
 /* Begin PBXFileReference section */
 		0D76915BAF46835E0C376D24 /* Pods-K-TALK-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-K-TALK-iOS.release.xcconfig"; path = "Target Support Files/Pods-K-TALK-iOS/Pods-K-TALK-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		4EE5A805E144E7D3C4DEE88E /* Pods-K-TALK-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-K-TALK-iOS.debug.xcconfig"; path = "Target Support Files/Pods-K-TALK-iOS/Pods-K-TALK-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		A93327662AF0CAE400A91BBC /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 		A9C4EAAD2AEFB9D200B35B1C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A9C4EAB12AF0B89000B35B1C /* SampleRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleRealm.swift; sourceTree = "<group>"; };
-		A9C4EAB32AF0B8EE00B35B1C /* 동음이의어,다의어.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "동음이의어,다의어.json"; path = "../../../Desktop/동음이의어,다의어.json"; sourceTree = "<group>"; };
 		A9C4EAB52AF0B93200B35B1C /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		A9C4EAB72AF0BCBB00B35B1C /* 동음이의어,다의어.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "동음이의어,다의어.json"; path = "../../../Downloads/동음이의어,다의어.json"; sourceTree = "<group>"; };
 		B5E1FCE52BD711C6EF220C3F /* Pods_K_TALK_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_K_TALK_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE72E8572AE76F6400988810 /* K-TALK-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "K-TALK-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE72E85A2AE76F6400988810 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -144,13 +146,14 @@
 				A9C4EAAD2AEFB9D200B35B1C /* GoogleService-Info.plist */,
 				CE72E85A2AE76F6400988810 /* AppDelegate.swift */,
 				CE72E85C2AE76F6400988810 /* SceneDelegate.swift */,
+				A93327662AF0CAE400A91BBC /* SampleData.swift */,
 				A9C4EAB12AF0B89000B35B1C /* SampleRealm.swift */,
 				CE72E85E2AE76F6400988810 /* TutorialViewController.swift */,
 				A9C4EAB52AF0B93200B35B1C /* TestViewController.swift */,
 				CE72E8602AE76F6400988810 /* Main.storyboard */,
 				CE72E8632AE76F6500988810 /* Assets.xcassets */,
+				A9C4EAB72AF0BCBB00B35B1C /* 동음이의어,다의어.json */,
 				CE72E8652AE76F6500988810 /* LaunchScreen.storyboard */,
-				A9C4EAB32AF0B8EE00B35B1C /* 동음이의어,다의어.json */,
 				CE72E8682AE76F6500988810 /* Info.plist */,
 			);
 			path = "K-TALK-iOS";
@@ -301,7 +304,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9C4EAB42AF0B8EE00B35B1C /* 동음이의어,다의어.json in Resources */,
+				A9C4EAB82AF0BCBB00B35B1C /* 동음이의어,다의어.json in Resources */,
 				CE72E8672AE76F6500988810 /* LaunchScreen.storyboard in Resources */,
 				A9C4EAAE2AEFB9D200B35B1C /* GoogleService-Info.plist in Resources */,
 				CE72E8642AE76F6500988810 /* Assets.xcassets in Resources */,
@@ -373,6 +376,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9C4EAB62AF0B93200B35B1C /* TestViewController.swift in Sources */,
+				A93327672AF0CAE400A91BBC /* SampleData.swift in Sources */,
 				CE72E85F2AE76F6400988810 /* TutorialViewController.swift in Sources */,
 				CE72E85B2AE76F6400988810 /* AppDelegate.swift in Sources */,
 				CE72E85D2AE76F6400988810 /* SceneDelegate.swift in Sources */,
@@ -559,7 +563,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = BRBLZLM3SM;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "K-TALK-iOS/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -589,7 +593,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = BRBLZLM3SM;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "K-TALK-iOS/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

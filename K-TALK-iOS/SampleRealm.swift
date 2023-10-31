@@ -16,10 +16,11 @@ class readJson{
 
                 for item in jsonArray {
                     let sampleData = SampleData()
-                    sampleData.homonym = item["homonym"] as? String ?? ""
-                    sampleData.polysemy = item["polysemy"] as? String ?? ""
-                    sampleData.example = item["example"] as? String ?? ""
-                    sampleData.wordmean = item["wordmean"] as? String ?? ""
+                    sampleData.wordname = item["단어"] as? String ?? ""
+                    sampleData.homonym = item["동음이의어"] as? String ?? ""
+                    sampleData.polysemy = item["다의어"] as? String ?? ""
+                    sampleData.example = item["예시"] as? String ?? ""
+                    sampleData.wordmean = item["의미"] as? String ?? ""
 
                     // Realm에 저장
                     do {
@@ -40,7 +41,8 @@ class readJson{
 
 
 class SampleData: Object{
-    @Persisted(primaryKey: true) var name: String = UUID().uuidString
+    @Persisted(primaryKey: true) var num: String = UUID().uuidString
+    @Persisted var wordname: String = ""
     @Persisted var homonym: String = ""
     @Persisted var polysemy: String = ""
     @Persisted var example: String = ""
