@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A9C4EAAE2AEFB9D200B35B1C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9C4EAAD2AEFB9D200B35B1C /* GoogleService-Info.plist */; };
+		A9C4EAB22AF0B89000B35B1C /* SampleRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4EAB12AF0B89000B35B1C /* SampleRealm.swift */; };
 		CE6313D22AE7979C0073E7F2 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = CE6313D12AE7979C0073E7F2 /* FirebaseAnalytics */; };
 		CE6313D42AE7979C0073E7F2 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = CE6313D32AE7979C0073E7F2 /* FirebaseAnalyticsOnDeviceConversion */; };
 		CE6313D62AE7979C0073E7F2 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CE6313D52AE7979C0073E7F2 /* FirebaseAnalyticsSwift */; };
@@ -25,7 +27,6 @@
 		CE72E8722AE76F6500988810 /* K_TALK_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE72E8712AE76F6500988810 /* K_TALK_iOSTests.swift */; };
 		CE72E87C2AE76F6500988810 /* K_TALK_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE72E87B2AE76F6500988810 /* K_TALK_iOSUITests.swift */; };
 		CE72E87E2AE76F6500988810 /* K_TALK_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE72E87D2AE76F6500988810 /* K_TALK_iOSUITestsLaunchTests.swift */; };
-		CEE642EF2AE91516006BD216 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEE642EE2AE91516006BD216 /* GoogleService-Info.plist */; };
 		F597708B24CC15750874E79E /* Pods_K_TALK_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E1FCE52BD711C6EF220C3F /* Pods_K_TALK_iOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,8 @@
 /* Begin PBXFileReference section */
 		0D76915BAF46835E0C376D24 /* Pods-K-TALK-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-K-TALK-iOS.release.xcconfig"; path = "Target Support Files/Pods-K-TALK-iOS/Pods-K-TALK-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		4EE5A805E144E7D3C4DEE88E /* Pods-K-TALK-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-K-TALK-iOS.debug.xcconfig"; path = "Target Support Files/Pods-K-TALK-iOS/Pods-K-TALK-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		A9C4EAAD2AEFB9D200B35B1C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A9C4EAB12AF0B89000B35B1C /* SampleRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleRealm.swift; sourceTree = "<group>"; };
 		B5E1FCE52BD711C6EF220C3F /* Pods_K_TALK_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_K_TALK_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE72E8572AE76F6400988810 /* K-TALK-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "K-TALK-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE72E85A2AE76F6400988810 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -63,7 +66,6 @@
 		CE72E8772AE76F6500988810 /* K-TALK-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "K-TALK-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE72E87B2AE76F6500988810 /* K_TALK_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K_TALK_iOSUITests.swift; sourceTree = "<group>"; };
 		CE72E87D2AE76F6500988810 /* K_TALK_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K_TALK_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		CEE642EE2AE91516006BD216 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,9 +137,10 @@
 		CE72E8592AE76F6400988810 /* K-TALK-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				CEE642EE2AE91516006BD216 /* GoogleService-Info.plist */,
+				A9C4EAAD2AEFB9D200B35B1C /* GoogleService-Info.plist */,
 				CE72E85A2AE76F6400988810 /* AppDelegate.swift */,
 				CE72E85C2AE76F6400988810 /* SceneDelegate.swift */,
+				A9C4EAB12AF0B89000B35B1C /* SampleRealm.swift */,
 				CE72E85E2AE76F6400988810 /* TutorialViewController.swift */,
 				CE72E8602AE76F6400988810 /* Main.storyboard */,
 				CE72E8632AE76F6500988810 /* Assets.xcassets */,
@@ -293,7 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE72E8672AE76F6500988810 /* LaunchScreen.storyboard in Resources */,
-				CEE642EF2AE91516006BD216 /* GoogleService-Info.plist in Resources */,
+				A9C4EAAE2AEFB9D200B35B1C /* GoogleService-Info.plist in Resources */,
 				CE72E8642AE76F6500988810 /* Assets.xcassets in Resources */,
 				CE72E8622AE76F6400988810 /* Main.storyboard in Resources */,
 			);
@@ -365,6 +368,7 @@
 				CE72E85F2AE76F6400988810 /* TutorialViewController.swift in Sources */,
 				CE72E85B2AE76F6400988810 /* AppDelegate.swift in Sources */,
 				CE72E85D2AE76F6400988810 /* SceneDelegate.swift in Sources */,
+				A9C4EAB22AF0B89000B35B1C /* SampleRealm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
