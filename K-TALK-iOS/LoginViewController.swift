@@ -11,7 +11,7 @@ import Firebase
 class LoginViewController: UIViewController {
     
     
-
+    
     @IBOutlet weak var pwTextField: UITextField!
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var pwShowButton: UIButton!
@@ -24,6 +24,11 @@ class LoginViewController: UIViewController {
         Auth.auth().signIn(withEmail: emailTextField.text!, password: pwTextField.text!) { (user, error) in
             if user != nil{
                 print("login success")
+                if let mainPageVC = self.storyboard?.instantiateViewController(withIdentifier: "MainPageView") as? UITabBarController {
+                    mainPageVC.selectedIndex = 0
+                    mainPageVC.modalPresentationStyle = .fullScreen
+                    self.present(mainPageVC, animated: true, completion: nil)
+                }
             }
             else{
                 print("login fail")
@@ -32,15 +37,15 @@ class LoginViewController: UIViewController {
     }
     @IBAction func pwShowButtonTouched(_ sender: Any) {
         if pwTextField.isSecureTextEntry == true {
-                if let image = UIImage(systemName: "eye.fill") {
-                    pwShowButton.setImage(image, for: .normal)
-                }
-                pwTextField.isSecureTextEntry = false
-            } else {
-                if let image = UIImage(systemName: "eye.slash.fill") {
-                    pwShowButton.setImage(image, for: .normal)
-                }
-                pwTextField.isSecureTextEntry = true
+            if let image = UIImage(systemName: "eye.fill") {
+                pwShowButton.setImage(image, for: .normal)
             }
+            pwTextField.isSecureTextEntry = false
+        } else {
+            if let image = UIImage(systemName: "eye.slash.fill") {
+                pwShowButton.setImage(image, for: .normal)
+            }
+            pwTextField.isSecureTextEntry = true
+        }
     }
 }
