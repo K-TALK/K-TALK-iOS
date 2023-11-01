@@ -4,6 +4,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -383,23 +384,43 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z8C-J2-ISM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1960" y="1294"/>
+            <point key="canvasLocation" x="-108" y="1294"/>
         </scene>
         <!--Item 1-->
         <scene sceneID="kXu-HX-bCP">
             <objects>
-                <viewController id="IkY-kb-w2x" sceneMemberID="viewController">
+                <viewController id="IkY-kb-w2x" customClass="MainPageViewController" customModule="K_TALK_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="idO-Bx-QRh">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4gx-fw-nb2">
+                                <rect key="frame" x="0.0" y="59" width="393" height="200"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="ccH-7m-BXV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="lvo-J1-H4H"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="4gx-fw-nb2" firstAttribute="leading" secondItem="lvo-J1-H4H" secondAttribute="leading" id="53Y-eB-fhS"/>
+                            <constraint firstItem="lvo-J1-H4H" firstAttribute="trailing" secondItem="4gx-fw-nb2" secondAttribute="trailing" id="NZC-kS-EjM"/>
+                            <constraint firstItem="4gx-fw-nb2" firstAttribute="top" secondItem="lvo-J1-H4H" secondAttribute="top" id="XbS-vd-ijh"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" id="0Gw-w1-vbz"/>
+                    <connections>
+                        <outlet property="welcome" destination="4gx-fw-nb2" id="RY4-8M-SK6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VOB-5i-Miv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="920" y="1730"/>
+            <point key="canvasLocation" x="-931" y="1294"/>
         </scene>
         <!--Item-->
         <scene sceneID="CSW-aN-Ipi">
@@ -435,7 +456,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ji6-Gc-9et" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-793" y="1295"/>
+            <point key="canvasLocation" x="-1738" y="1294"/>
         </scene>
         <!--Item-->
         <scene sceneID="cy9-Pf-50E">
@@ -456,6 +477,9 @@
     </scenes>
     <resources>
         <image name="eye.slash.fill" catalog="system" width="128" height="85"/>
+        <namedColor name="AccentColor">
+            <color red="1" green="0.79199999570846558" blue="0.15700000524520874" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
