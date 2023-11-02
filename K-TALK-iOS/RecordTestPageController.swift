@@ -185,44 +185,53 @@ extension RecordTestPageController {
     }
     
     func postTest(base64String: String) {
-            let url = "http://aiopen.etri.re.kr:8000/WiseASR/PronunciationKor"
-            var request = URLRequest(url: URL(string: url)!)
-            request.httpMethod = "POST"
-            request.setValue("application/json", forHTTPHeaderField: "Content-Type")
-            request.setValue("API-KEYS", forHTTPHeaderField: "Authorization")
-            request.timeoutInterval = 15
-            // POST 로 보낼 정보
-            let argument: [String: Any] = [
-                "language_code": "korean",
-                "script": "간장공장 공장장",
-                "audio": base64String,
-            ] as Dictionary
-            
-            let parameters: [String: Any] = [
-                "argument": argument
-            ] as Dictionary
-            
-            // httpBody 에 parameters 추가
-            do {
-                try request.httpBody = JSONSerialization.data(withJSONObject: parameters, options: [])
-            } catch {
-                print("http Body Error")
-            }
-            AF.request(request).responseString { (response) in
-                switch response.result {
-                case .success:
-                    print("POST 성공")
-                    if let json = try? JSONDecoder().decode([String: String].self, from: response.data!) {
-                        let returnObject: Dictionary<String, Any> = json["return_object"] as? Dictionary<String, Any> ?? [:]
-                        if let recognized = returnObject["recognized"] as? String,
-                           let score = returnObject["score"] as? Int {
-                            print("발음평가 결과: \(recognized)")
-                            print("발음 평가 점수: \(score)")
-                        }
-                    }
-                case .failure(let error):
-                    print("error : \(error.errorDescription!)")
-                }
+        let url = "http://aiopen.etri.re.kr:8000/WiseASR/PronunciationKor"
+        
+        struct Response: Codable {
+            let result: Int
+            let return_type: String
+            let return_object: ReturnObject
+
+            struct ReturnObject: Codable {
+                let recognized: String
+                let score: String
             }
         }
+        
+        var request = URLRequest(url: URL(string: url)!)
+        request.httpMethod = "POST"
+        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
+        request.setValue("API-KEYS!!!", forHTTPHeaderField: "Authorization")
+        request.timeoutInterval = 15
+        
+        // POST 로 보낼 정보
+        let argument: [String: Any] = [
+            "language_code": "korean",
+            "script": "간장공장 공장장",
+            "audio": base64String,
+        ] as Dictionary
+            
+        let parameters: [String: Any] = [
+            "argument": argument
+        ] as Dictionary
+            
+        // httpBody 에 parameters 추가
+        do {
+            try request.httpBody = JSONSerialization.data(withJSONObject: parameters, options: .prettyPrinted)
+        } catch {
+            print("http Body Error")
+        }
+        AF.request(request).responseString { (response) in
+            switch response.result {
+            case .success:
+                print("POST 성공")
+                if let json = try? JSONDecoder().decode(Response.self, from: response.data!) {
+                    print(json.return_object.recognized)
+                    print(json.return_object.score)
+                }
+            case .failure(let error):
+                print("error : \(error.errorDescription!)")
+            }
+        }
+    }
 }
