@@ -21,5 +21,7 @@ class TutorialViewController: UIViewController {
     }
     @IBAction func doRight(_ sender: Any) {
     }
+    
+    @IBAction func SignUp(_ sender: UIButton) {
+    }
 }
-
