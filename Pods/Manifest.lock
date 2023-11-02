@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (5.8.0)
+  - ProgressHUD (14.1.0)
   - Realm (10.43.1):
     - Realm/Headers (= 10.43.1)
   - Realm/Headers (10.43.1)
@@ -9,22 +10,25 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
+  - ProgressHUD
   - RealmSwift
   - SwiftyJSON
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - ProgressHUD
     - Realm
     - RealmSwift
     - SwiftyJSON
 
 SPEC CHECKSUMS:
   Alamofire: 0e92e751b3e9e66d7982db43919d01f313b8eb91
+  ProgressHUD: c4a55f108815c46a6bf082407d2f806840b7a869
   Realm: d97b438de77459e443bd2c8ad5ca0f95107aee4b
   RealmSwift: 6be3f27a7fd3f5cc8f99f4b187cc4e7150299e32
   SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
 
-PODFILE CHECKSUM: bc7a08db5124f517bab2eafbf376a2c3d1b3b783
+PODFILE CHECKSUM: 3a8e4651ae982902e64f2785d2575e8959eff20d
 
 COCOAPODS: 1.13.0
