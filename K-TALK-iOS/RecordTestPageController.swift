@@ -189,7 +189,7 @@ extension RecordTestPageController {
             var request = URLRequest(url: URL(string: url)!)
             request.httpMethod = "POST"
             request.setValue("application/json", forHTTPHeaderField: "Content-Type")
-            request.setValue("99fe9144-9584-4a54-b645-02534369f032", forHTTPHeaderField: "Authorization")
+            request.setValue("API-KEYS", forHTTPHeaderField: "Authorization")
             request.timeoutInterval = 15
             // POST 로 보낼 정보
             let parameters: Parameters = [
