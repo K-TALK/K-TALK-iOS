@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE3BD5532AF0ED4E00A8E1E5 /* Shiah Maisel & Clarx - Everything I Got [NCS Release].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE3BD5522AF0ED4E00A8E1E5 /* Shiah Maisel & Clarx - Everything I Got [NCS Release].mp3 */; };
 		CE6313D22AE7979C0073E7F2 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = CE6313D12AE7979C0073E7F2 /* FirebaseAnalytics */; };
 		CE6313D42AE7979C0073E7F2 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = CE6313D32AE7979C0073E7F2 /* FirebaseAnalyticsOnDeviceConversion */; };
 		CE6313D62AE7979C0073E7F2 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CE6313D52AE7979C0073E7F2 /* FirebaseAnalyticsSwift */; };
@@ -53,7 +52,6 @@
 		0D76915BAF46835E0C376D24 /* Pods-K-TALK-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-K-TALK-iOS.release.xcconfig"; path = "Target Support Files/Pods-K-TALK-iOS/Pods-K-TALK-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		4EE5A805E144E7D3C4DEE88E /* Pods-K-TALK-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-K-TALK-iOS.debug.xcconfig"; path = "Target Support Files/Pods-K-TALK-iOS/Pods-K-TALK-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		B5E1FCE52BD711C6EF220C3F /* Pods_K_TALK_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_K_TALK_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE3BD5522AF0ED4E00A8E1E5 /* Shiah Maisel & Clarx - Everything I Got [NCS Release].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Shiah Maisel & Clarx - Everything I Got [NCS Release].mp3"; sourceTree = "<group>"; };
 		CE72E8572AE76F6400988810 /* K-TALK-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "K-TALK-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE72E85A2AE76F6400988810 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE72E85C2AE76F6400988810 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -116,14 +114,6 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		CE3BD54E2AF0EB2300A8E1E5 /* Sound */ = {
-			isa = PBXGroup;
-			children = (
-				CE3BD5522AF0ED4E00A8E1E5 /* Shiah Maisel & Clarx - Everything I Got [NCS Release].mp3 */,
-			);
-			path = Sound;
-			sourceTree = "<group>";
-		};
 		CE72E84E2AE76F6400988810 = {
 			isa = PBXGroup;
 			children = (
@@ -149,7 +139,6 @@
 		CE72E8592AE76F6400988810 /* K-TALK-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				CE3BD54E2AF0EB2300A8E1E5 /* Sound */,
 				CEE97DF72AEA248100566748 /* GoogleService-Info.plist */,
 				CE72E85A2AE76F6400988810 /* AppDelegate.swift */,
 				CE72E85C2AE76F6400988810 /* SceneDelegate.swift */,
@@ -313,7 +302,6 @@
 				CEE97DF82AEA248200566748 /* GoogleService-Info.plist in Resources */,
 				CE72E8642AE76F6500988810 /* Assets.xcassets in Resources */,
 				CE72E8622AE76F6400988810 /* Main.storyboard in Resources */,
-				CE3BD5532AF0ED4E00A8E1E5 /* Shiah Maisel & Clarx - Everything I Got [NCS Release].mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

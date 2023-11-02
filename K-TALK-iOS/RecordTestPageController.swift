@@ -66,7 +66,7 @@ class RecordTestPageController : UIViewController, AVAudioRecorderDelegate, AVAu
     
     //녹음된 파일 재생하는 함수
     func playRecording() {
-        let audioFilename = getDocumentsDirectory().appendingPathComponent("recording.m4a")
+        let audioFilename = getDocumentsDirectory().appendingPathComponent("recording.wav")
 
         do {
             player = try AVAudioPlayer(contentsOf: audioFilename)
@@ -125,11 +125,11 @@ class RecordTestPageController : UIViewController, AVAudioRecorderDelegate, AVAu
     
     //녹음 시작 기능 함수
     func startRecording() {
-        let audioFilename = getDocumentsDirectory().appendingPathComponent("recording.m4a")
+        let audioFilename = getDocumentsDirectory().appendingPathComponent("recording.wav")
         let settings = [
-            AVFormatIDKey: Int(kAudioFormatMPEG4AAC),
+            AVFormatIDKey: Int(kAudioFormatLinearPCM),
             AVSampleRateKey: 16000,
-            AVNumberOfChannelsKey: 2,
+            AVNumberOfChannelsKey: 1,
             AVEncoderAudioQualityKey: AVAudioQuality.high.rawValue
         ]
 
@@ -171,7 +171,7 @@ extension RecordTestPageController {
 
     // Encodes the recorded audio file to base64.
     func encodeRecordingToBase64() -> String? {
-        let audioFilename = getDocumentsDirectory().appendingPathComponent("recording.m4a")
+        let audioFilename = getDocumentsDirectory().appendingPathComponent("recording.wav")
 
         // Create a Data object from the audio file.
         let audioData = try? Data(contentsOf: audioFilename)
@@ -189,16 +189,18 @@ extension RecordTestPageController {
             var request = URLRequest(url: URL(string: url)!)
             request.httpMethod = "POST"
             request.setValue("application/json", forHTTPHeaderField: "Content-Type")
-            request.setValue("99fe9144-9584-4a54-b645-02534369f032", forHTTPHeaderField: "Authorization")
+            request.setValue("API-KEYS", forHTTPHeaderField: "Authorization")
             request.timeoutInterval = 15
             // POST 로 보낼 정보
-            let parameters: Parameters = [
-                "argument": [
-                    "language_code": "korean",
-                    "script": "간장공장 공장장",
-                    "audio": base64String,
-                ],
-            ]
+            let argument: [String: Any] = [
+                "language_code": "korean",
+                "script": "간장공장 공장장",
+                "audio": base64String,
+            ] as Dictionary
+            
+            let parameters: [String: Any] = [
+                "argument": argument
+            ] as Dictionary
             
             // httpBody 에 parameters 추가
             do {
@@ -223,41 +225,4 @@ extension RecordTestPageController {
                 }
             }
         }
-    
-    // Sends the encoded audio file to the REST API.
-        func sendEncodedRecordingToApi(base64String: String) {
-            let url = URL(string: "http://aiopen.etri.re.kr:8000/WiseASR/PronunciationKor")!
-            let headers: HTTPHeaders = [
-                "Content-Type" : "application/json",
-                "Authorization": "API-KEYS",
-            ]
-            let parameters: Parameters = [
-                "argument": [
-                    "language_code": "korean",
-                    "script": "간장공장 공장장",
-                    "audio": base64String,
-                ],
-            ]
-            
-            AF.request(url, method: .post, parameters: parameters, headers: headers).validate(contentType: ["application/json"])
-                        .responseJSON { response in
-                            switch response.result {
-                            case .success:
-                                // Handle the success response.
-                                print(response)
-                                if let json = try? JSONDecoder().decode([String: String].self, from: response.data!) {
-                                    let returnObject: Dictionary<String, Any> = json["return_object"] as? Dictionary<String, Any> ?? [:]
-                                    if let recognized = returnObject["recognized"] as? String,
-                                       let score = returnObject["score"] as? Int {
-                                        print("발음평가 결과: \(recognized)")
-                                        print("발음 평가 점수: \(score)")
-                                    }
-                                }
-                            case .failure:
-                                print("전송 실패")
-                                
-                                // Handle the failure response.
-                            }
-                        }
-                }
 }
