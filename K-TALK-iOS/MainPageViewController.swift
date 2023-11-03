@@ -16,10 +16,8 @@ class MainPageViewController: UIViewController {
         if let currentUser = Auth.auth().currentUser {
             // 현재 사용자의 이메일 표시
             welcome.text = "\(currentUser.email!)님 환영합니다!"
-        } else {
-            // 사용자가 로그인하지 않은 경우에 대한 처리
-            welcome.text = "로그인되지 않음"
         }
+        
     }
     
     
