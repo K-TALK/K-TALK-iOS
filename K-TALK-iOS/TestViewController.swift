@@ -33,23 +33,23 @@ func wordClassfication() {
             let results = realm.objects(SampleData.self)
 
             // "~다"로 끝나는 단어 필터링
-            let endsWith다 = results.filter { sampleData in
+            let endsWith = results.filter { sampleData in
                 return sampleData.wordname.hasSuffix("다")
             }
 
             // "~다"로 끝나지 않는 단어 필터링
-            let doesNotEndWith다 = results.filter { sampleData in
+            let doesNotEndWith = results.filter { sampleData in
                 return !sampleData.wordname.hasSuffix("다")
             }
 
             // 결과 출력
             print("Words that end with '다':")
-            for sampleData in endsWith다 {
+            for sampleData in endsWith {
                 print("단어: \(sampleData.wordname)")
             }
 
             print("\nWords that do not end with '다':")
-            for sampleData in doesNotEndWith다 {
+            for sampleData in doesNotEndWith {
                 print("단어: \(sampleData.wordname)")
             }
         } catch {
