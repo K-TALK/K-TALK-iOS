@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A53F5262AFA394300D0FA14 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A53F5252AFA394300D0FA14 /* GoogleService-Info.plist */; };
+		9A53F5282AFA3A7100D0FA14 /* wordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A53F5272AFA3A7100D0FA14 /* wordTableViewCell.swift */; };
 		A93327672AF0CAE400A91BBC /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93327662AF0CAE400A91BBC /* SampleData.swift */; };
 		A9C4EAB22AF0B89000B35B1C /* SampleRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4EAB12AF0B89000B35B1C /* SampleRealm.swift */; };
 		A9C4EAB62AF0B93200B35B1C /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4EAB52AF0B93200B35B1C /* TestViewController.swift */; };
@@ -19,7 +21,6 @@
 		CE6313DE2AE7979C0073E7F2 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = CE6313DD2AE7979C0073E7F2 /* FirebaseFirestore */; };
 		CE6313E02AE7979C0073E7F2 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = CE6313DF2AE7979C0073E7F2 /* FirebaseFirestoreCombine-Community */; };
 		CE6313E22AE7979C0073E7F2 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CE6313E12AE7979C0073E7F2 /* FirebaseFirestoreSwift */; };
-		CE6CDD5B2AFA29B500DA8311 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE6CDD5A2AFA29B500DA8311 /* GoogleService-Info.plist */; };
 		CE6CDD5D2AFA2B2C00DA8311 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6CDD5C2AFA2B2C00DA8311 /* LoginViewController.swift */; };
 		CE6CDD602AFA2B4500DA8311 /* MainPage2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6CDD5E2AFA2B4500DA8311 /* MainPage2ViewController.swift */; };
 		CE6CDD612AFA2B4500DA8311 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6CDD5F2AFA2B4500DA8311 /* MainPageViewController.swift */; };
@@ -56,11 +57,12 @@
 /* Begin PBXFileReference section */
 		0D76915BAF46835E0C376D24 /* Pods-K-TALK-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-K-TALK-iOS.release.xcconfig"; path = "Target Support Files/Pods-K-TALK-iOS/Pods-K-TALK-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		4EE5A805E144E7D3C4DEE88E /* Pods-K-TALK-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-K-TALK-iOS.debug.xcconfig"; path = "Target Support Files/Pods-K-TALK-iOS/Pods-K-TALK-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		9A53F5252AFA394300D0FA14 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9A53F5272AFA3A7100D0FA14 /* wordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wordTableViewCell.swift; sourceTree = "<group>"; };
 		A93327662AF0CAE400A91BBC /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 		A9C4EAB12AF0B89000B35B1C /* SampleRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleRealm.swift; sourceTree = "<group>"; };
 		A9C4EAB52AF0B93200B35B1C /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		B5E1FCE52BD711C6EF220C3F /* Pods_K_TALK_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_K_TALK_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE6CDD5A2AFA29B500DA8311 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CE6CDD5C2AFA2B2C00DA8311 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CE6CDD5E2AFA2B4500DA8311 /* MainPage2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPage2ViewController.swift; sourceTree = "<group>"; };
 		CE6CDD5F2AFA2B4500DA8311 /* MainPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
@@ -149,7 +151,7 @@
 		CE72E8592AE76F6400988810 /* K-TALK-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				CE6CDD5A2AFA29B500DA8311 /* GoogleService-Info.plist */,
+				9A53F5252AFA394300D0FA14 /* GoogleService-Info.plist */,
 				CE6CDD622AFA2B5100DA8311 /* SignUpViewController.swift */,
 				CE6CDD5E2AFA2B4500DA8311 /* MainPage2ViewController.swift */,
 				CE6CDD5F2AFA2B4500DA8311 /* MainPageViewController.swift */,
@@ -161,6 +163,7 @@
 				CE72E85E2AE76F6400988810 /* TutorialViewController.swift */,
 				A9C4EAB52AF0B93200B35B1C /* TestViewController.swift */,
 				CE72E8602AE76F6400988810 /* Main.storyboard */,
+				9A53F5272AFA3A7100D0FA14 /* wordTableViewCell.swift */,
 				CE72E8632AE76F6500988810 /* Assets.xcassets */,
 				CE72E8652AE76F6500988810 /* LaunchScreen.storyboard */,
 				CE72E8682AE76F6500988810 /* Info.plist */,
@@ -314,7 +317,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE72E8672AE76F6500988810 /* LaunchScreen.storyboard in Resources */,
-				CE6CDD5B2AFA29B500DA8311 /* GoogleService-Info.plist in Resources */,
+				9A53F5262AFA394300D0FA14 /* GoogleService-Info.plist in Resources */,
 				CE72E8642AE76F6500988810 /* Assets.xcassets in Resources */,
 				CE72E8622AE76F6400988810 /* Main.storyboard in Resources */,
 			);
@@ -385,6 +388,7 @@
 			files = (
 				CE6CDD5D2AFA2B2C00DA8311 /* LoginViewController.swift in Sources */,
 				A9C4EAB62AF0B93200B35B1C /* TestViewController.swift in Sources */,
+				9A53F5282AFA3A7100D0FA14 /* wordTableViewCell.swift in Sources */,
 				A93327672AF0CAE400A91BBC /* SampleData.swift in Sources */,
 				CE6CDD602AFA2B4500DA8311 /* MainPage2ViewController.swift in Sources */,
 				CE6CDD632AFA2B5100DA8311 /* SignUpViewController.swift in Sources */,
