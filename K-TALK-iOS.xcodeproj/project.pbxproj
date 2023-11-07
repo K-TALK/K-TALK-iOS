@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		9A53F5262AFA394300D0FA14 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A53F5252AFA394300D0FA14 /* GoogleService-Info.plist */; };
 		9A53F5282AFA3A7100D0FA14 /* wordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A53F5272AFA3A7100D0FA14 /* wordTableViewCell.swift */; };
+		9A53F52A2AFA646400D0FA14 /* 동음이의어,다의어.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A53F5292AFA646400D0FA14 /* 동음이의어,다의어.json */; };
+		9A53F52C2AFA7B8F00D0FA14 /* wordData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A53F52B2AFA7B8F00D0FA14 /* wordData.swift */; };
 		A93327672AF0CAE400A91BBC /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93327662AF0CAE400A91BBC /* SampleData.swift */; };
 		A9C4EAB22AF0B89000B35B1C /* SampleRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4EAB12AF0B89000B35B1C /* SampleRealm.swift */; };
 		A9C4EAB62AF0B93200B35B1C /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4EAB52AF0B93200B35B1C /* TestViewController.swift */; };
@@ -59,6 +61,8 @@
 		4EE5A805E144E7D3C4DEE88E /* Pods-K-TALK-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-K-TALK-iOS.debug.xcconfig"; path = "Target Support Files/Pods-K-TALK-iOS/Pods-K-TALK-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		9A53F5252AFA394300D0FA14 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9A53F5272AFA3A7100D0FA14 /* wordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wordTableViewCell.swift; sourceTree = "<group>"; };
+		9A53F5292AFA646400D0FA14 /* 동음이의어,다의어.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "동음이의어,다의어.json"; path = "../../../Downloads/동음이의어,다의어.json"; sourceTree = "<group>"; };
+		9A53F52B2AFA7B8F00D0FA14 /* wordData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wordData.swift; sourceTree = "<group>"; };
 		A93327662AF0CAE400A91BBC /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 		A9C4EAB12AF0B89000B35B1C /* SampleRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleRealm.swift; sourceTree = "<group>"; };
 		A9C4EAB52AF0B93200B35B1C /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
@@ -154,6 +158,7 @@
 				9A53F5252AFA394300D0FA14 /* GoogleService-Info.plist */,
 				CE6CDD622AFA2B5100DA8311 /* SignUpViewController.swift */,
 				CE6CDD5E2AFA2B4500DA8311 /* MainPage2ViewController.swift */,
+				9A53F52B2AFA7B8F00D0FA14 /* wordData.swift */,
 				CE6CDD5F2AFA2B4500DA8311 /* MainPageViewController.swift */,
 				CE6CDD5C2AFA2B2C00DA8311 /* LoginViewController.swift */,
 				CE72E85A2AE76F6400988810 /* AppDelegate.swift */,
@@ -164,6 +169,7 @@
 				A9C4EAB52AF0B93200B35B1C /* TestViewController.swift */,
 				CE72E8602AE76F6400988810 /* Main.storyboard */,
 				9A53F5272AFA3A7100D0FA14 /* wordTableViewCell.swift */,
+				9A53F5292AFA646400D0FA14 /* 동음이의어,다의어.json */,
 				CE72E8632AE76F6500988810 /* Assets.xcassets */,
 				CE72E8652AE76F6500988810 /* LaunchScreen.storyboard */,
 				CE72E8682AE76F6500988810 /* Info.plist */,
@@ -318,6 +324,7 @@
 			files = (
 				CE72E8672AE76F6500988810 /* LaunchScreen.storyboard in Resources */,
 				9A53F5262AFA394300D0FA14 /* GoogleService-Info.plist in Resources */,
+				9A53F52A2AFA646400D0FA14 /* 동음이의어,다의어.json in Resources */,
 				CE72E8642AE76F6500988810 /* Assets.xcassets in Resources */,
 				CE72E8622AE76F6400988810 /* Main.storyboard in Resources */,
 			);
@@ -393,6 +400,7 @@
 				CE6CDD602AFA2B4500DA8311 /* MainPage2ViewController.swift in Sources */,
 				CE6CDD632AFA2B5100DA8311 /* SignUpViewController.swift in Sources */,
 				CE72E85F2AE76F6400988810 /* TutorialViewController.swift in Sources */,
+				9A53F52C2AFA7B8F00D0FA14 /* wordData.swift in Sources */,
 				CE72E85B2AE76F6400988810 /* AppDelegate.swift in Sources */,
 				CE72E85D2AE76F6400988810 /* SceneDelegate.swift in Sources */,
 				CE6CDD612AFA2B4500DA8311 /* MainPageViewController.swift in Sources */,

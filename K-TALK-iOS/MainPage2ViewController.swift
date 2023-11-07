@@ -8,15 +8,15 @@
 import UIKit
 
 class MainPage2ViewController: UIViewController {
-
+    var wordData : [WordData] = []
     @IBOutlet weak var wordTable: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        wordData = loadWordDataFromJSON()
         wordTable.dataSource = self
         // Auto layout, variables, and unit scale are not yet supported
     }
     let kWord = ["사과", "배", "딸기","포도"]
-    let eWord = ["apple", "pear", "strowberry", "grape"]
 
     /*
     // MARK: - Navigation
@@ -32,13 +32,13 @@ class MainPage2ViewController: UIViewController {
 extension MainPage2ViewController : UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = wordTable.dequeueReusableCell(withIdentifier: "wordTableCell", for: indexPath) as! wordTableViewCell
-        cell.korean.text = kWord[indexPath.row]
-        cell.english.text = eWord[indexPath.row]
+        let word = wordData[indexPath.row]
+        cell.korean.text = word.단어
         return cell
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return kWord.count
+        return wordData.count
     }
     
 }

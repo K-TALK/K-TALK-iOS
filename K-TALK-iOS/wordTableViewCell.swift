@@ -14,7 +14,6 @@ class wordTableViewCell: UITableViewCell {
         // Initialization code
     }
 
-    @IBOutlet weak var english: UILabel!
     @IBOutlet weak var korean: UILabel!
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
