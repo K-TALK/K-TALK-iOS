@@ -16,7 +16,8 @@ class TestViewController: UIViewController{
         
         let jsonData = readJson()
         jsonData.readJson()
-        wordClassfication()
+//        wordClassfication()
+        makeAPICall()
     }
     
    

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A93327672AF0CAE400A91BBC /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93327662AF0CAE400A91BBC /* SampleData.swift */; };
+		A9AE1ECE2AFB212400090A15 /* Mywords.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AE1ECD2AFB212400090A15 /* Mywords.swift */; };
 		A9C4EAAE2AEFB9D200B35B1C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9C4EAAD2AEFB9D200B35B1C /* GoogleService-Info.plist */; };
 		A9C4EAB22AF0B89000B35B1C /* SampleRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4EAB12AF0B89000B35B1C /* SampleRealm.swift */; };
 		A9C4EAB62AF0B93200B35B1C /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4EAB52AF0B93200B35B1C /* TestViewController.swift */; };
@@ -54,6 +55,7 @@
 		0D76915BAF46835E0C376D24 /* Pods-K-TALK-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-K-TALK-iOS.release.xcconfig"; path = "Target Support Files/Pods-K-TALK-iOS/Pods-K-TALK-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		4EE5A805E144E7D3C4DEE88E /* Pods-K-TALK-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-K-TALK-iOS.debug.xcconfig"; path = "Target Support Files/Pods-K-TALK-iOS/Pods-K-TALK-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		A93327662AF0CAE400A91BBC /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		A9AE1ECD2AFB212400090A15 /* Mywords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mywords.swift; sourceTree = "<group>"; };
 		A9C4EAAD2AEFB9D200B35B1C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A9C4EAB12AF0B89000B35B1C /* SampleRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleRealm.swift; sourceTree = "<group>"; };
 		A9C4EAB52AF0B93200B35B1C /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 			children = (
 				A9C4EAAD2AEFB9D200B35B1C /* GoogleService-Info.plist */,
 				CE72E85A2AE76F6400988810 /* AppDelegate.swift */,
+				A9AE1ECD2AFB212400090A15 /* Mywords.swift */,
 				CE72E85C2AE76F6400988810 /* SceneDelegate.swift */,
 				A93327662AF0CAE400A91BBC /* SampleData.swift */,
 				A9C4EAB12AF0B89000B35B1C /* SampleRealm.swift */,
@@ -375,6 +378,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9AE1ECE2AFB212400090A15 /* Mywords.swift in Sources */,
 				A9C4EAB62AF0B93200B35B1C /* TestViewController.swift in Sources */,
 				A93327672AF0CAE400A91BBC /* SampleData.swift in Sources */,
 				CE72E85F2AE76F6400988810 /* TutorialViewController.swift in Sources */,
