@@ -13,8 +13,23 @@ class Sentence: Object {
     @objc dynamic var id:Int = 0
     @objc dynamic var sentence:String = ""
     
-    // id 가 고유 값입니다.
+    // id가 고유 값
     override static func primaryKey() -> String? {
       return "id"
+    }
+}
+
+class Quiz: Object {
+    @objc dynamic var id:Int = 0
+    @objc dynamic var Quiz:String = ""
+    @objc dynamic var Answer1:String = ""
+    @objc dynamic var Answer2:String = ""
+    @objc dynamic var Answer3:String = ""
+    @objc dynamic var Answer4:String = ""
+    @objc dynamic var correctAnswer:String = ""
+    
+    // id가 고유 값
+    override static func primaryKey() -> String? {
+        return "id"
     }
 }

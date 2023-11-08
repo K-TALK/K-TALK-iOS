@@ -17,6 +17,8 @@
 		CE6313DE2AE7979C0073E7F2 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = CE6313DD2AE7979C0073E7F2 /* FirebaseFirestore */; };
 		CE6313E02AE7979C0073E7F2 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = CE6313DF2AE7979C0073E7F2 /* FirebaseFirestoreCombine-Community */; };
 		CE6313E22AE7979C0073E7F2 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CE6313E12AE7979C0073E7F2 /* FirebaseFirestoreSwift */; };
+		CE6CDD592AFA230900DA8311 /* QuizPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6CDD582AFA230900DA8311 /* QuizPageController.swift */; };
+		CE6CDD652AFA4B3D00DA8311 /* 동음이의어,다의어.json in Resources */ = {isa = PBXBuildFile; fileRef = CE6CDD642AFA4B3D00DA8311 /* 동음이의어,다의어.json */; };
 		CE72E85B2AE76F6400988810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE72E85A2AE76F6400988810 /* AppDelegate.swift */; };
 		CE72E85D2AE76F6400988810 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE72E85C2AE76F6400988810 /* SceneDelegate.swift */; };
 		CE72E85F2AE76F6400988810 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE72E85E2AE76F6400988810 /* TutorialViewController.swift */; };
@@ -26,6 +28,7 @@
 		CE72E8722AE76F6500988810 /* K_TALK_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE72E8712AE76F6500988810 /* K_TALK_iOSTests.swift */; };
 		CE72E87C2AE76F6500988810 /* K_TALK_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE72E87B2AE76F6500988810 /* K_TALK_iOSUITests.swift */; };
 		CE72E87E2AE76F6500988810 /* K_TALK_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE72E87D2AE76F6500988810 /* K_TALK_iOSUITestsLaunchTests.swift */; };
+		CE9E1F282AF3FD2F00E33BA9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE9E1F272AF3FD2F00E33BA9 /* GoogleService-Info.plist */; };
 		CEE97DF82AEA248200566748 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEE97DF72AEA248100566748 /* GoogleService-Info.plist */; };
 		CEF0DD462AEF9B720000C192 /* RecordTestPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0DD452AEF9B720000C192 /* RecordTestPageController.swift */; };
 		CEF0DD482AEF9C750000C192 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0DD472AEF9C750000C192 /* SignUpController.swift */; };
@@ -54,6 +57,8 @@
 		4EE5A805E144E7D3C4DEE88E /* Pods-K-TALK-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-K-TALK-iOS.debug.xcconfig"; path = "Target Support Files/Pods-K-TALK-iOS/Pods-K-TALK-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		B5E1FCE52BD711C6EF220C3F /* Pods_K_TALK_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_K_TALK_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE0D84552AF3D4E70046043A /* Sentence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sentence.swift; sourceTree = "<group>"; };
+		CE6CDD582AFA230900DA8311 /* QuizPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizPageController.swift; sourceTree = "<group>"; };
+		CE6CDD642AFA4B3D00DA8311 /* 동음이의어,다의어.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "동음이의어,다의어.json"; sourceTree = "<group>"; };
 		CE72E8572AE76F6400988810 /* K-TALK-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "K-TALK-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE72E85A2AE76F6400988810 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE72E85C2AE76F6400988810 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +72,7 @@
 		CE72E8772AE76F6500988810 /* K-TALK-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "K-TALK-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE72E87B2AE76F6500988810 /* K_TALK_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K_TALK_iOSUITests.swift; sourceTree = "<group>"; };
 		CE72E87D2AE76F6500988810 /* K_TALK_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K_TALK_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE9E1F272AF3FD2F00E33BA9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CEE97DF72AEA248100566748 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CEF0DD452AEF9B720000C192 /* RecordTestPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordTestPageController.swift; sourceTree = "<group>"; };
 		CEF0DD472AEF9C750000C192 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
@@ -141,13 +147,16 @@
 		CE72E8592AE76F6400988810 /* K-TALK-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				CE6CDD642AFA4B3D00DA8311 /* 동음이의어,다의어.json */,
 				CEE97DF72AEA248100566748 /* GoogleService-Info.plist */,
+				CE9E1F272AF3FD2F00E33BA9 /* GoogleService-Info.plist */,
 				CE72E85A2AE76F6400988810 /* AppDelegate.swift */,
 				CE72E85C2AE76F6400988810 /* SceneDelegate.swift */,
 				CE72E85E2AE76F6400988810 /* TutorialViewController.swift */,
 				CEF0DD452AEF9B720000C192 /* RecordTestPageController.swift */,
 				CEF0DD472AEF9C750000C192 /* SignUpController.swift */,
 				CE0D84552AF3D4E70046043A /* Sentence.swift */,
+				CE6CDD582AFA230900DA8311 /* QuizPageController.swift */,
 				CE72E8602AE76F6400988810 /* Main.storyboard */,
 				CE72E8632AE76F6500988810 /* Assets.xcassets */,
 				CE72E8652AE76F6500988810 /* LaunchScreen.storyboard */,
@@ -303,6 +312,8 @@
 			files = (
 				CE72E8672AE76F6500988810 /* LaunchScreen.storyboard in Resources */,
 				CEE97DF82AEA248200566748 /* GoogleService-Info.plist in Resources */,
+				CE9E1F282AF3FD2F00E33BA9 /* GoogleService-Info.plist in Resources */,
+				CE6CDD652AFA4B3D00DA8311 /* 동음이의어,다의어.json in Resources */,
 				CE72E8642AE76F6500988810 /* Assets.xcassets in Resources */,
 				CE72E8622AE76F6400988810 /* Main.storyboard in Resources */,
 			);
@@ -375,6 +386,7 @@
 				CE72E85F2AE76F6400988810 /* TutorialViewController.swift in Sources */,
 				CEF0DD462AEF9B720000C192 /* RecordTestPageController.swift in Sources */,
 				CE72E85B2AE76F6400988810 /* AppDelegate.swift in Sources */,
+				CE6CDD592AFA230900DA8311 /* QuizPageController.swift in Sources */,
 				CE0D84562AF3D4E70046043A /* Sentence.swift in Sources */,
 				CE72E85D2AE76F6400988810 /* SceneDelegate.swift in Sources */,
 			);

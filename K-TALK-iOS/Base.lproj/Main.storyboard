@@ -296,6 +296,132 @@
             </objects>
             <point key="canvasLocation" x="1822.3255813953488" y="3.218884120171674"/>
         </scene>
+        <!--Quiz Page Controller-->
+        <scene sceneID="KoV-Hu-j43">
+            <objects>
+                <viewController id="1C3-HS-Upt" customClass="QuizPageController" customModule="K_TALK_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Cf0-eY-o5W">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="퀴즈 페이지" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DNS-eI-ORH">
+                                <rect key="frame" x="142" y="132" width="146" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="퀴즈 1번" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FEo-3O-1Fp">
+                                <rect key="frame" x="20" y="262" width="390" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Quiz.1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ahy-Qu-BOw">
+                                <rect key="frame" x="145" y="201" width="140" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R5F-Uw-IgL">
+                                <rect key="frame" x="129" y="790" width="170" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="정답확인"/>
+                                <connections>
+                                    <action selector="answerButtonTapped:" destination="1C3-HS-Upt" eventType="touchUpInside" id="k6v-zj-25S"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qga-Pa-kVp">
+                                <rect key="frame" x="129" y="835" width="170" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="다시도전"/>
+                                <connections>
+                                    <action selector="resetButton:" destination="1C3-HS-Upt" eventType="touchUpInside" id="jVu-tx-ht4"/>
+                                </connections>
+                            </button>
+                            <stackView verifyAmbiguity="ignoreSizes" opaque="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" axis="vertical" distribution="fillEqually" spacing="42" id="8n9-Aa-ZIe">
+                                <rect key="frame" x="63" y="408" width="302" height="344"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" id="z43-PA-4zQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="302" height="54.666666666666664"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Button" buttonSize="large"/>
+                                        <connections>
+                                            <action selector="asnwer1ButtonAction:" destination="1C3-HS-Upt" eventType="touchUpInside" id="xsJ-fG-4wF"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="iMG-S3-pWd">
+                                        <rect key="frame" x="0.0" y="96.666666666666671" width="302" height="54.666666666666671"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Button" buttonSize="large"/>
+                                        <connections>
+                                            <action selector="asnwer2ButtonAction:" destination="1C3-HS-Upt" eventType="touchUpInside" id="n8r-8N-4ga"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Zbm-bX-b9A">
+                                        <rect key="frame" x="0.0" y="193.33333333333334" width="302" height="54.666666666666657"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Button" buttonSize="large"/>
+                                        <connections>
+                                            <action selector="asnwer3ButtonAction:" destination="1C3-HS-Upt" eventType="touchUpInside" id="6rh-bi-8ag"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="FnH-GO-LRw">
+                                        <rect key="frame" x="0.0" y="289.33333333333331" width="302" height="54.666666666666686"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Button" buttonSize="large"/>
+                                        <connections>
+                                            <action selector="asnwer4ButtonAction:" destination="1C3-HS-Upt" eventType="touchUpInside" id="ItB-cf-HAR"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2GY-e0-77M">
+                                <rect key="frame" x="63" y="814" width="51" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="arrowshape.left.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="goBack:" destination="1C3-HS-Upt" eventType="touchUpInside" id="Uxi-iN-hS3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ui1-EE-oZY">
+                                <rect key="frame" x="314" y="814" width="51" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="arrowshape.right.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="goNext:" destination="1C3-HS-Upt" eventType="touchUpInside" id="kSV-ux-cIr"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="EaW-qT-kTu"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="AnswerButton" destination="R5F-Uw-IgL" id="r4W-KW-Y3G"/>
+                        <outlet property="QuizLabel" destination="FEo-3O-1Fp" id="Q65-mN-yY4"/>
+                        <outlet property="QuizNum" destination="Ahy-Qu-BOw" id="V3g-FU-8um"/>
+                        <outlet property="QuizStack" destination="8n9-Aa-ZIe" id="1X0-kL-zFq"/>
+                        <outlet property="answer1Button" destination="z43-PA-4zQ" id="iBd-lN-o9S"/>
+                        <outlet property="answer2Button" destination="iMG-S3-pWd" id="z6u-1F-TJR"/>
+                        <outlet property="answer3Button" destination="Zbm-bX-b9A" id="682-HF-Pjn"/>
+                        <outlet property="answer4Button" destination="FnH-GO-LRw" id="HSr-Ah-Suj"/>
+                        <outlet property="goBack" destination="2GY-e0-77M" id="NPP-AS-6qI"/>
+                        <outlet property="goNext" destination="Ui1-EE-oZY" id="LT9-OA-biw"/>
+                        <outlet property="resetButton" destination="Qga-Pa-kVp" id="ONN-Di-6mh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5io-03-14n" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2640" y="3.8626609442060089"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Pagination" width="99" height="16"/>
