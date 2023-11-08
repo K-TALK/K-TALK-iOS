@@ -13,6 +13,8 @@
 		A9C4EAB22AF0B89000B35B1C /* SampleRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4EAB12AF0B89000B35B1C /* SampleRealm.swift */; };
 		A9C4EAB62AF0B93200B35B1C /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4EAB52AF0B93200B35B1C /* TestViewController.swift */; };
 		A9C4EAB82AF0BCBB00B35B1C /* 동음이의어,다의어.json in Resources */ = {isa = PBXBuildFile; fileRef = A9C4EAB72AF0BCBB00B35B1C /* 동음이의어,다의어.json */; };
+		A9C976362AFBD1B7004E35CE /* EducationVerbViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C976352AFBD1B7004E35CE /* EducationVerbViewController.swift */; };
+		A9C976382AFBE010004E35CE /* EducationNounViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C976372AFBE010004E35CE /* EducationNounViewController.swift */; };
 		CE6313D22AE7979C0073E7F2 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = CE6313D12AE7979C0073E7F2 /* FirebaseAnalytics */; };
 		CE6313D42AE7979C0073E7F2 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = CE6313D32AE7979C0073E7F2 /* FirebaseAnalyticsOnDeviceConversion */; };
 		CE6313D62AE7979C0073E7F2 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CE6313D52AE7979C0073E7F2 /* FirebaseAnalyticsSwift */; };
@@ -60,6 +62,8 @@
 		A9C4EAB12AF0B89000B35B1C /* SampleRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleRealm.swift; sourceTree = "<group>"; };
 		A9C4EAB52AF0B93200B35B1C /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		A9C4EAB72AF0BCBB00B35B1C /* 동음이의어,다의어.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "동음이의어,다의어.json"; path = "../../../Downloads/동음이의어,다의어.json"; sourceTree = "<group>"; };
+		A9C976352AFBD1B7004E35CE /* EducationVerbViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationVerbViewController.swift; sourceTree = "<group>"; };
+		A9C976372AFBE010004E35CE /* EducationNounViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationNounViewController.swift; sourceTree = "<group>"; };
 		B5E1FCE52BD711C6EF220C3F /* Pods_K_TALK_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_K_TALK_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE72E8572AE76F6400988810 /* K-TALK-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "K-TALK-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE72E85A2AE76F6400988810 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -152,6 +156,8 @@
 				A93327662AF0CAE400A91BBC /* SampleData.swift */,
 				A9C4EAB12AF0B89000B35B1C /* SampleRealm.swift */,
 				CE72E85E2AE76F6400988810 /* TutorialViewController.swift */,
+				A9C976352AFBD1B7004E35CE /* EducationVerbViewController.swift */,
+				A9C976372AFBE010004E35CE /* EducationNounViewController.swift */,
 				A9C4EAB52AF0B93200B35B1C /* TestViewController.swift */,
 				CE72E8602AE76F6400988810 /* Main.storyboard */,
 				CE72E8632AE76F6500988810 /* Assets.xcassets */,
@@ -379,8 +385,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9AE1ECE2AFB212400090A15 /* Mywords.swift in Sources */,
+				A9C976362AFBD1B7004E35CE /* EducationVerbViewController.swift in Sources */,
 				A9C4EAB62AF0B93200B35B1C /* TestViewController.swift in Sources */,
 				A93327672AF0CAE400A91BBC /* SampleData.swift in Sources */,
+				A9C976382AFBE010004E35CE /* EducationNounViewController.swift in Sources */,
 				CE72E85F2AE76F6400988810 /* TutorialViewController.swift in Sources */,
 				CE72E85B2AE76F6400988810 /* AppDelegate.swift in Sources */,
 				CE72E85D2AE76F6400988810 /* SceneDelegate.swift in Sources */,
