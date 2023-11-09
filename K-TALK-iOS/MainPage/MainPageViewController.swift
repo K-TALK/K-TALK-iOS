@@ -18,6 +18,8 @@ class MainPageViewController: UIViewController {
             // 현재 사용자의 이메일 표시
             welcome.text = "\(currentUser.email!)님 환영합니다!"
         }
+        let jsonData = readJson()
+        jsonData.readJson()
         
     }
     @IBAction func moveEducationN(_ sender: UIButton){
