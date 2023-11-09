@@ -19,12 +19,9 @@ class EducationNounViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         // Realm에서 "~다"로 끝나는 단어 필터링
         let realm = try! Realm()
-        doesNotEndWith = realm.objects(SampleData.self).filter("NOT wordname ENDSWITH '다'")
-
-        
+        doesNotEndWith = realm.objects(SampleData.self).filter("NOT wordname CONTAINS '다'")
         // 화면 초기화
         showWord(at: currentIndex)
     }

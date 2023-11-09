@@ -16,7 +16,7 @@ class TestViewController: UIViewController{
         
         let jsonData = readJson()
         jsonData.readJson()
-//        wordClassfication()
+        wordClassfication()
         makeAPICall()
     }
     
@@ -44,15 +44,15 @@ func wordClassfication(){
             }
             
             // 결과 출력
-//            print("Words that end with '다':")
-//            for sampleData in endsWith {
-//                print("단어: \(sampleData.wordname)")
-//            }
-//
-//            print("\nWords that do not end with '다':")
-//            for sampleData in doesNotEndWith {
-//                print("단어: \(sampleData.wordname)")
-//            }
+            print("Words that end with '다':")
+            for sampleData in endsWith {
+                print("단어: \(sampleData.wordname)")
+            }
+
+            print("\nWords that do not end with '다':")
+            for sampleData in doesNotEndWith {
+                print("단어: \(sampleData.wordname)")
+            }
         } catch {
             print("Error querying data from Realm: \(error.localizedDescription)")
         }

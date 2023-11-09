@@ -13,6 +13,7 @@
 		A93327672AF0CAE400A91BBC /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93327662AF0CAE400A91BBC /* SampleData.swift */; };
 		A9C4EAB22AF0B89000B35B1C /* SampleRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4EAB12AF0B89000B35B1C /* SampleRealm.swift */; };
 		A9C4EAB62AF0B93200B35B1C /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4EAB52AF0B93200B35B1C /* TestViewController.swift */; };
+		A9C9763C2AFCF5FC004E35CE /* EducationMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C9763B2AFCF5FC004E35CE /* EducationMainViewController.swift */; };
 		CE6313D22AE7979C0073E7F2 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = CE6313D12AE7979C0073E7F2 /* FirebaseAnalytics */; };
 		CE6313D42AE7979C0073E7F2 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = CE6313D32AE7979C0073E7F2 /* FirebaseAnalyticsOnDeviceConversion */; };
 		CE6313D62AE7979C0073E7F2 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CE6313D52AE7979C0073E7F2 /* FirebaseAnalyticsSwift */; };
@@ -73,6 +74,7 @@
 		A93327662AF0CAE400A91BBC /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 		A9C4EAB12AF0B89000B35B1C /* SampleRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleRealm.swift; sourceTree = "<group>"; };
 		A9C4EAB52AF0B93200B35B1C /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		A9C9763B2AFCF5FC004E35CE /* EducationMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationMainViewController.swift; sourceTree = "<group>"; };
 		B5E1FCE52BD711C6EF220C3F /* Pods_K_TALK_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_K_TALK_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6CDD5C2AFA2B2C00DA8311 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CE6CDD5E2AFA2B4500DA8311 /* MainPage2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPage2ViewController.swift; sourceTree = "<group>"; };
@@ -229,6 +231,7 @@
 				CEC0AC142AFCA38B005D2445 /* DetailViewController.swift */,
 				9A53F5272AFA3A7100D0FA14 /* wordTableViewCell.swift */,
 				CEC0AC0F2AFCA38B005D2445 /* EducationNounViewController.swift */,
+				A9C9763B2AFCF5FC004E35CE /* EducationMainViewController.swift */,
 				CEC0AC102AFCA38B005D2445 /* EducationVerbViewController.swift */,
 				CEC0AC152AFCA38B005D2445 /* Mywords.swift */,
 				CEC0AC122AFCA38B005D2445 /* Sentence.swift */,
@@ -481,6 +484,7 @@
 				CE72E85D2AE76F6400988810 /* SceneDelegate.swift in Sources */,
 				CEC0AC1D2AFCA38B005D2445 /* Mywords.swift in Sources */,
 				CEC0AC1E2AFCA38B005D2445 /* SignUpController.swift in Sources */,
+				A9C9763C2AFCF5FC004E35CE /* EducationMainViewController.swift in Sources */,
 				CEC0AC1B2AFCA38B005D2445 /* QuizPageController.swift in Sources */,
 				CE6CDD612AFA2B4500DA8311 /* MainPageViewController.swift in Sources */,
 				CEC0AC1A2AFCA38B005D2445 /* Sentence.swift in Sources */,

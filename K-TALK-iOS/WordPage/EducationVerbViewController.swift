@@ -13,14 +13,13 @@ class EducationVerbViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Realm에서 "~다"로 끝나는 단어 필터링
+        // "~다"로 끝나는 단어 필터링
         let realm = try! Realm()
-        endsWith = realm.objects(SampleData.self).filter("wordname ENDSWITH '다'")
+        endsWith = realm.objects(SampleData.self).filter("wordname CONTAINS '다'")
         
         // 화면 초기화
         showWord(at: currentIndex)
     }
-    
     func showWord(at index: Int) {
         if index >= 0 && index < endsWith.count {
             let wordItem = endsWith[index]
@@ -30,7 +29,7 @@ class EducationVerbViewController: UIViewController {
             meaningLabel.text = "의미: " + wordItem.wordmean
         }
     }
-    
+
     @IBAction func nextButtonTapped(_ sender: UIButton) {
         currentIndex += 1
         if currentIndex >= endsWith.count {
@@ -39,3 +38,4 @@ class EducationVerbViewController: UIViewController {
         showWord(at: currentIndex)
     }
 }
+
