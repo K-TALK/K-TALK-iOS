@@ -236,7 +236,7 @@ class QuizPageController : UIViewController{
     func inputSentece(){
         let Quiz1 = Quiz()
         Quiz1.id = 1
-        Quiz1.Quiz = "다음 중 \"발로 내지르거나 받아 올리다" + "의 의미를 가진 \"차다" + "의 올바른 예시를 고르시오"
+        Quiz1.Quiz = "다음 중 \"발로 내지르거나 받아 올리다\"" + "의 의미를 가진 \"차다\"" + "의 올바른 예시를 고르시오"
         Quiz1.Answer1 = "금메달을 딴 그는 기쁨에 찬 얼굴로 눈물을 흘렸다"
         Quiz1.Answer2 = "공을 차다"
         Quiz1.Answer3 = "바람이 차다"
@@ -245,7 +245,7 @@ class QuizPageController : UIViewController{
         
         let Quiz2 = Quiz()
         Quiz2.id = 2
-        Quiz2.Quiz = "다음 중 \"빛의 자극을 받아 물체를 볼 수 있는 감각 기관" + "의 의미를 가진 \"눈" + "의 올바른 예시를 고르시오"
+        Quiz2.Quiz = "다음 중 \"빛의 자극을 받아 물체를 볼 수 있는 감각 기관\"" + "의 의미를 가진 \"눈\"" + "의 올바른 예시를 고르시오"
         Quiz2.Answer1 = "눈사람을 만들다"
         Quiz2.Answer2 = "눈이 내리다"
         Quiz2.Answer3 = "눈을 뜨다"
@@ -254,7 +254,7 @@ class QuizPageController : UIViewController{
         
         let Quiz3 = Quiz()
         Quiz3.id = 3
-        Quiz3.Quiz = "다음 중 \"물기가 많아서 단단하지 않다" + "의 의미를 가진 \"무르다" + "의 올바른 예시를 고르시오"
+        Quiz3.Quiz = "다음 중 \"물기가 많아서 단단하지 않다\"" + "의 의미를 가진 \"무르다\"" + "의 올바른 예시를 고르시오"
         Quiz3.Answer1 = "마음이 그렇게 물러서 어떻게 이 험한 세상을 살겠느냐"
         Quiz3.Answer2 = "한번 산 물건은 무를 수 없다"
         Quiz3.Answer3 = "저지른 실수는 처음대로 무를 수가 없으니 매사에 신중해야 한다"
