@@ -74,5 +74,7 @@ class TutorialViewController: UIViewController {
     @IBAction func openLoginView(_ sender: Any) {
       
     }
+    
+    @IBAction func SignUp(_ sender: UIButton) {
+    }
 }
-
