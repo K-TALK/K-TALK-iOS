@@ -18,7 +18,6 @@ class SignUpViewController: UIViewController{
     @IBOutlet weak var emailTextField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         reTextField.delegate = self
         pwTextField.delegate = self
         emailTextField.delegate = self
