@@ -10,6 +10,7 @@ import FirebaseAuth
 class MainPageViewController: UIViewController {
     
     @IBOutlet weak var welcome: UILabel!
+    @IBOutlet weak var education: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Firebase에서 현재 사용자 정보 가져오기
@@ -19,7 +20,11 @@ class MainPageViewController: UIViewController {
         }
         
     }
-    
+    @IBAction func moveEducationN(_ sender: UIButton){
+        let viewController = storyboard?.instantiateViewController(withIdentifier: "EducationMainViewController") as! UIViewController
+        viewController.modalPresentationStyle = .fullScreen
+        present(viewController, animated: true, completion: nil)
+    }
     
     /*
      // MARK: - Navigation
