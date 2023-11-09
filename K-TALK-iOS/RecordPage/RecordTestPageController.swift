@@ -27,7 +27,7 @@ class RecordTestPageController : UIViewController, AVAudioRecorderDelegate, AVAu
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        print("## realm file dir -> \(Realm.Configuration.defaultConfiguration.fileURL!)")
         inputSentece()
         
         self.SentenceView.text = "간장공장 공장장"

@@ -20,7 +20,6 @@ class MainPageViewController: UIViewController {
         }
         let jsonData = readJson()
         jsonData.readJson()
-        
     }
     @IBAction func moveEducationN(_ sender: UIButton){
         let viewController = storyboard?.instantiateViewController(withIdentifier: "EducationMainViewController") as! UIViewController

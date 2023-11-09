@@ -25,7 +25,7 @@ class LoginViewController: UIViewController {
             if user != nil{
                 print("login success")
                 if let mainPageVC = self.storyboard?.instantiateViewController(withIdentifier: "MainPageView") as? UITabBarController {
-                    mainPageVC.selectedIndex = 0
+                    mainPageVC.selectedIndex = 2
                     mainPageVC.modalPresentationStyle = .fullScreen
                     self.present(mainPageVC, animated: true, completion: nil)
                 }

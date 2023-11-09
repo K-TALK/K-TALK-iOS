@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="p3u-ne-oT9">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="p3u-ne-oT9">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -383,14 +383,14 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="wordTableCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="wordTableCell" id="MYJ-Ug-slH" customClass="wordTableViewCell" customModule="K_TALK_iOS" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
+                                        <rect key="frame" x="0.0" y="50" width="393" height="43.333332061767578"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="MYJ-Ug-slH" id="JvU-eR-9Tq">
-                                            <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="43.333332061767578"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5H3-du-V3O">
-                                                    <rect key="frame" x="10" y="11.000000000000002" width="41.333333333333336" height="21.666666666666671"/>
+                                                    <rect key="frame" x="10" y="10.999999999999998" width="41.333333333333336" height="21.333333333333329"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -622,24 +622,25 @@
         <!--Tab Bar Controller-->
         <scene sceneID="yh5-RR-WkL">
             <objects>
-                <tabBarController storyboardIdentifier="MainPageView" id="RIt-EI-aYR" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="MainPageView" id="RIt-EI-aYR" customClass="TabBarController" customModule="K_TALK_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" restorationIdentifier="MainPageView" insetsLayoutMarginsFromSafeArea="NO" id="PBV-e2-Uei">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="IkY-kb-w2x" kind="relationship" relationship="viewControllers" id="Ld1-PH-g6P"/>
-                        <segue destination="835-LV-Ho3" kind="relationship" relationship="viewControllers" id="X8j-Lu-3u4"/>
-                        <segue destination="8oS-wP-EUl" kind="relationship" relationship="viewControllers" id="HXq-gG-4Dz"/>
-                        <segue destination="UQB-rC-nIZ" kind="relationship" relationship="viewControllers" id="8UK-Wc-xYp"/>
+                        <segue destination="dYq-No-zrS" kind="relationship" relationship="viewControllers" id="Fnd-xV-ZaM"/>
+                        <segue destination="835-LV-Ho3" kind="relationship" relationship="viewControllers" id="DvK-TM-Ct5"/>
+                        <segue destination="IkY-kb-w2x" kind="relationship" relationship="viewControllers" id="cvJ-sz-EYT"/>
+                        <segue destination="8oS-wP-EUl" kind="relationship" relationship="viewControllers" id="bIE-0E-hvI"/>
+                        <segue destination="UQB-rC-nIZ" kind="relationship" relationship="viewControllers" id="Spa-9H-Z0z"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ji6-Gc-9et" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2265" y="1266"/>
         </scene>
-        <!--Education Main View Controller-->
+        <!--단어장-->
         <scene sceneID="TeS-IZ-lgA">
             <objects>
                 <viewController storyboardIdentifier="EducationMainViewController" id="dYq-No-zrS" customClass="EducationMainViewController" customModule="K_TALK_iOS" customModuleProvider="target" sceneMemberID="viewController">
@@ -664,7 +665,7 @@
                                     <segue destination="IgG-8p-6jZ" kind="show" id="pu2-OC-a6j"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3zV-lp-9kN">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3zV-lp-9kN">
                                 <rect key="frame" x="20" y="409" width="353" height="100"/>
                                 <color key="backgroundColor" red="0.50402583729999995" green="0.72613877059999998" blue="0.53699454660000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
@@ -679,7 +680,7 @@
                                     <segue destination="eqC-3V-BWY" kind="show" id="mnh-D4-IS8"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yQR-3t-g8J">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yQR-3t-g8J">
                                 <rect key="frame" x="116" y="692" width="161" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Back to MainPage"/>
@@ -703,6 +704,7 @@
                             <constraint firstItem="v5z-1s-e1I" firstAttribute="trailing" secondItem="yQR-3t-g8J" secondAttribute="trailing" constant="116" id="tK7-5y-g5C"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="단어장" image="character.book.closed.ko" catalog="system" id="RyI-Ry-51C"/>
                     <navigationItem key="navigationItem" id="LJv-Ug-K2U"/>
                     <connections>
                         <outlet property="backMain" destination="yQR-3t-g8J" id="InA-sq-pKN"/>
@@ -1056,7 +1058,7 @@
                                 <rect key="frame" x="45.666666666666657" y="307.33333333333337" width="302" height="294.33333333333337"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" id="XkK-jG-Ufy">
-                                        <rect key="frame" x="0.0" y="0.0" width="302" height="50.333333333333336"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="302" height="62.666666666666664"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Button" buttonSize="large"/>
@@ -1163,7 +1165,8 @@
     <resources>
         <image name="arrowshape.left.fill" catalog="system" width="128" height="104"/>
         <image name="arrowshape.right.fill" catalog="system" width="128" height="104"/>
-        <image name="eye.slash.fill" catalog="system" width="128" height="85"/>
+        <image name="character.book.closed.ko" catalog="system" width="115" height="128"/>
+        <image name="eye.slash.fill" catalog="system" width="128" height="96"/>
         <image name="house" catalog="system" width="128" height="104"/>
         <image name="magnifyingglass.circle" catalog="system" width="128" height="123"/>
         <image name="mic.circle" catalog="system" width="128" height="123"/>
@@ -1172,10 +1175,10 @@
             <color red="1" green="0.79199999570846558" blue="0.15700000524520874" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="labelColor">
-            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="opaqueSeparatorColor">
-            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="secondarySystemGroupedBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

@@ -45,6 +45,8 @@
 		CEC0AC1D2AFCA38B005D2445 /* Mywords.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC0AC152AFCA38B005D2445 /* Mywords.swift */; };
 		CEC0AC1E2AFCA38B005D2445 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC0AC162AFCA38B005D2445 /* SignUpController.swift */; };
 		CED043272AFC9FB300D1F240 /* 동음이의어,다의어.json in Resources */ = {isa = PBXBuildFile; fileRef = CED043262AFC9FB300D1F240 /* 동음이의어,다의어.json */; };
+		CEFFBE8A2AFD0CA3004820DD /* UITabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFFBE892AFD0CA3004820DD /* UITabBar.swift */; };
+		CEFFBE8C2AFD0DC2004820DD /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFFBE8B2AFD0DC2004820DD /* TabBarController.swift */; };
 		F597708B24CC15750874E79E /* Pods_K_TALK_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E1FCE52BD711C6EF220C3F /* Pods_K_TALK_iOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -102,6 +104,8 @@
 		CEC0AC152AFCA38B005D2445 /* Mywords.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mywords.swift; sourceTree = "<group>"; };
 		CEC0AC162AFCA38B005D2445 /* SignUpController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
 		CED043262AFC9FB300D1F240 /* 동음이의어,다의어.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "동음이의어,다의어.json"; path = "../../../Downloads/동음이의어,다의어.json"; sourceTree = "<group>"; };
+		CEFFBE892AFD0CA3004820DD /* UITabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITabBar.swift; sourceTree = "<group>"; };
+		CEFFBE8B2AFD0DC2004820DD /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -254,6 +258,8 @@
 		CEC0AC232AFCA8BD005D2445 /* MainPage */ = {
 			isa = PBXGroup;
 			children = (
+				CEFFBE8B2AFD0DC2004820DD /* TabBarController.swift */,
+				CEFFBE892AFD0CA3004820DD /* UITabBar.swift */,
 				CE6CDD5F2AFA2B4500DA8311 /* MainPageViewController.swift */,
 			);
 			path = MainPage;
@@ -473,8 +479,10 @@
 				9A53F5282AFA3A7100D0FA14 /* wordTableViewCell.swift in Sources */,
 				CEC0AC172AFCA38B005D2445 /* EducationNounViewController.swift in Sources */,
 				A93327672AF0CAE400A91BBC /* SampleData.swift in Sources */,
+				CEFFBE8C2AFD0DC2004820DD /* TabBarController.swift in Sources */,
 				CE6CDD602AFA2B4500DA8311 /* MainPage2ViewController.swift in Sources */,
 				CE6CDD632AFA2B5100DA8311 /* SignUpViewController.swift in Sources */,
+				CEFFBE8A2AFD0CA3004820DD /* UITabBar.swift in Sources */,
 				CEC0AC192AFCA38B005D2445 /* RecordTestPageController.swift in Sources */,
 				CE72E85F2AE76F6400988810 /* TutorialViewController.swift in Sources */,
 				CEC0AC1C2AFCA38B005D2445 /* DetailViewController.swift in Sources */,
