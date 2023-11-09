@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		9A53F5262AFA394300D0FA14 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A53F5252AFA394300D0FA14 /* GoogleService-Info.plist */; };
 		9A53F5282AFA3A7100D0FA14 /* wordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A53F5272AFA3A7100D0FA14 /* wordTableViewCell.swift */; };
-		9A53F52A2AFA646400D0FA14 /* 동음이의어,다의어.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A53F5292AFA646400D0FA14 /* 동음이의어,다의어.json */; };
 		9A53F52C2AFA7B8F00D0FA14 /* wordData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A53F52B2AFA7B8F00D0FA14 /* wordData.swift */; };
 		A93327672AF0CAE400A91BBC /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93327662AF0CAE400A91BBC /* SampleData.swift */; };
 		A9C4EAB22AF0B89000B35B1C /* SampleRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4EAB12AF0B89000B35B1C /* SampleRealm.swift */; };
@@ -36,6 +35,15 @@
 		CE72E8722AE76F6500988810 /* K_TALK_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE72E8712AE76F6500988810 /* K_TALK_iOSTests.swift */; };
 		CE72E87C2AE76F6500988810 /* K_TALK_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE72E87B2AE76F6500988810 /* K_TALK_iOSUITests.swift */; };
 		CE72E87E2AE76F6500988810 /* K_TALK_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE72E87D2AE76F6500988810 /* K_TALK_iOSUITestsLaunchTests.swift */; };
+		CEC0AC172AFCA38B005D2445 /* EducationNounViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC0AC0F2AFCA38B005D2445 /* EducationNounViewController.swift */; };
+		CEC0AC182AFCA38B005D2445 /* EducationVerbViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC0AC102AFCA38B005D2445 /* EducationVerbViewController.swift */; };
+		CEC0AC192AFCA38B005D2445 /* RecordTestPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC0AC112AFCA38B005D2445 /* RecordTestPageController.swift */; };
+		CEC0AC1A2AFCA38B005D2445 /* Sentence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC0AC122AFCA38B005D2445 /* Sentence.swift */; };
+		CEC0AC1B2AFCA38B005D2445 /* QuizPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC0AC132AFCA38B005D2445 /* QuizPageController.swift */; };
+		CEC0AC1C2AFCA38B005D2445 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC0AC142AFCA38B005D2445 /* DetailViewController.swift */; };
+		CEC0AC1D2AFCA38B005D2445 /* Mywords.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC0AC152AFCA38B005D2445 /* Mywords.swift */; };
+		CEC0AC1E2AFCA38B005D2445 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC0AC162AFCA38B005D2445 /* SignUpController.swift */; };
+		CED043272AFC9FB300D1F240 /* 동음이의어,다의어.json in Resources */ = {isa = PBXBuildFile; fileRef = CED043262AFC9FB300D1F240 /* 동음이의어,다의어.json */; };
 		F597708B24CC15750874E79E /* Pods_K_TALK_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E1FCE52BD711C6EF220C3F /* Pods_K_TALK_iOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,7 +69,6 @@
 		4EE5A805E144E7D3C4DEE88E /* Pods-K-TALK-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-K-TALK-iOS.debug.xcconfig"; path = "Target Support Files/Pods-K-TALK-iOS/Pods-K-TALK-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		9A53F5252AFA394300D0FA14 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9A53F5272AFA3A7100D0FA14 /* wordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wordTableViewCell.swift; sourceTree = "<group>"; };
-		9A53F5292AFA646400D0FA14 /* 동음이의어,다의어.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "동음이의어,다의어.json"; path = "../../../Downloads/동음이의어,다의어.json"; sourceTree = "<group>"; };
 		9A53F52B2AFA7B8F00D0FA14 /* wordData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wordData.swift; sourceTree = "<group>"; };
 		A93327662AF0CAE400A91BBC /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 		A9C4EAB12AF0B89000B35B1C /* SampleRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleRealm.swift; sourceTree = "<group>"; };
@@ -84,6 +91,15 @@
 		CE72E8772AE76F6500988810 /* K-TALK-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "K-TALK-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE72E87B2AE76F6500988810 /* K_TALK_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K_TALK_iOSUITests.swift; sourceTree = "<group>"; };
 		CE72E87D2AE76F6500988810 /* K_TALK_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K_TALK_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CEC0AC0F2AFCA38B005D2445 /* EducationNounViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EducationNounViewController.swift; sourceTree = "<group>"; };
+		CEC0AC102AFCA38B005D2445 /* EducationVerbViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EducationVerbViewController.swift; sourceTree = "<group>"; };
+		CEC0AC112AFCA38B005D2445 /* RecordTestPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordTestPageController.swift; sourceTree = "<group>"; };
+		CEC0AC122AFCA38B005D2445 /* Sentence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sentence.swift; sourceTree = "<group>"; };
+		CEC0AC132AFCA38B005D2445 /* QuizPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizPageController.swift; sourceTree = "<group>"; };
+		CEC0AC142AFCA38B005D2445 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CEC0AC152AFCA38B005D2445 /* Mywords.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mywords.swift; sourceTree = "<group>"; };
+		CEC0AC162AFCA38B005D2445 /* SignUpController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		CED043262AFC9FB300D1F240 /* 동음이의어,다의어.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "동음이의어,다의어.json"; path = "../../../Downloads/동음이의어,다의어.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,23 +171,19 @@
 		CE72E8592AE76F6400988810 /* K-TALK-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				9A53F5252AFA394300D0FA14 /* GoogleService-Info.plist */,
-				CE6CDD622AFA2B5100DA8311 /* SignUpViewController.swift */,
-				CE6CDD5E2AFA2B4500DA8311 /* MainPage2ViewController.swift */,
-				9A53F52B2AFA7B8F00D0FA14 /* wordData.swift */,
-				CE6CDD5F2AFA2B4500DA8311 /* MainPageViewController.swift */,
-				CE6CDD5C2AFA2B2C00DA8311 /* LoginViewController.swift */,
+				CEC0AC242AFCA8D0005D2445 /* TestPage */,
+				CEC0AC232AFCA8BD005D2445 /* MainPage */,
+				CEC0AC222AFCA8A3005D2445 /* AuthPage */,
+				CEC0AC212AFCA874005D2445 /* WordPage */,
+				CEC0AC202AFCA869005D2445 /* QuizPage */,
+				CEC0AC1F2AFCA845005D2445 /* RecordPage */,
 				CE72E85A2AE76F6400988810 /* AppDelegate.swift */,
 				CE72E85C2AE76F6400988810 /* SceneDelegate.swift */,
-				A93327662AF0CAE400A91BBC /* SampleData.swift */,
-				A9C4EAB12AF0B89000B35B1C /* SampleRealm.swift */,
-				CE72E85E2AE76F6400988810 /* TutorialViewController.swift */,
-				A9C4EAB52AF0B93200B35B1C /* TestViewController.swift */,
 				CE72E8602AE76F6400988810 /* Main.storyboard */,
-				9A53F5272AFA3A7100D0FA14 /* wordTableViewCell.swift */,
-				9A53F5292AFA646400D0FA14 /* 동음이의어,다의어.json */,
-				CE72E8632AE76F6500988810 /* Assets.xcassets */,
 				CE72E8652AE76F6500988810 /* LaunchScreen.storyboard */,
+				CE72E8632AE76F6500988810 /* Assets.xcassets */,
+				CED043262AFC9FB300D1F240 /* 동음이의어,다의어.json */,
+				9A53F5252AFA394300D0FA14 /* GoogleService-Info.plist */,
 				CE72E8682AE76F6500988810 /* Info.plist */,
 			);
 			path = "K-TALK-iOS";
@@ -192,6 +204,66 @@
 				CE72E87D2AE76F6500988810 /* K_TALK_iOSUITestsLaunchTests.swift */,
 			);
 			path = "K-TALK-iOSUITests";
+			sourceTree = "<group>";
+		};
+		CEC0AC1F2AFCA845005D2445 /* RecordPage */ = {
+			isa = PBXGroup;
+			children = (
+				CEC0AC112AFCA38B005D2445 /* RecordTestPageController.swift */,
+			);
+			path = RecordPage;
+			sourceTree = "<group>";
+		};
+		CEC0AC202AFCA869005D2445 /* QuizPage */ = {
+			isa = PBXGroup;
+			children = (
+				CEC0AC132AFCA38B005D2445 /* QuizPageController.swift */,
+			);
+			path = QuizPage;
+			sourceTree = "<group>";
+		};
+		CEC0AC212AFCA874005D2445 /* WordPage */ = {
+			isa = PBXGroup;
+			children = (
+				CE6CDD5E2AFA2B4500DA8311 /* MainPage2ViewController.swift */,
+				CEC0AC142AFCA38B005D2445 /* DetailViewController.swift */,
+				9A53F5272AFA3A7100D0FA14 /* wordTableViewCell.swift */,
+				CEC0AC0F2AFCA38B005D2445 /* EducationNounViewController.swift */,
+				CEC0AC102AFCA38B005D2445 /* EducationVerbViewController.swift */,
+				CEC0AC152AFCA38B005D2445 /* Mywords.swift */,
+				CEC0AC122AFCA38B005D2445 /* Sentence.swift */,
+				9A53F52B2AFA7B8F00D0FA14 /* wordData.swift */,
+			);
+			path = WordPage;
+			sourceTree = "<group>";
+		};
+		CEC0AC222AFCA8A3005D2445 /* AuthPage */ = {
+			isa = PBXGroup;
+			children = (
+				CE72E85E2AE76F6400988810 /* TutorialViewController.swift */,
+				CE6CDD5C2AFA2B2C00DA8311 /* LoginViewController.swift */,
+				CE6CDD622AFA2B5100DA8311 /* SignUpViewController.swift */,
+				CEC0AC162AFCA38B005D2445 /* SignUpController.swift */,
+			);
+			path = AuthPage;
+			sourceTree = "<group>";
+		};
+		CEC0AC232AFCA8BD005D2445 /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				CE6CDD5F2AFA2B4500DA8311 /* MainPageViewController.swift */,
+			);
+			path = MainPage;
+			sourceTree = "<group>";
+		};
+		CEC0AC242AFCA8D0005D2445 /* TestPage */ = {
+			isa = PBXGroup;
+			children = (
+				A93327662AF0CAE400A91BBC /* SampleData.swift */,
+				A9C4EAB12AF0B89000B35B1C /* SampleRealm.swift */,
+				A9C4EAB52AF0B93200B35B1C /* TestViewController.swift */,
+			);
+			path = TestPage;
 			sourceTree = "<group>";
 		};
 		EDC99D8003BC9E0ADD0B697B /* Frameworks */ = {
@@ -322,9 +394,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED043272AFC9FB300D1F240 /* 동음이의어,다의어.json in Resources */,
 				CE72E8672AE76F6500988810 /* LaunchScreen.storyboard in Resources */,
 				9A53F5262AFA394300D0FA14 /* GoogleService-Info.plist in Resources */,
-				9A53F52A2AFA646400D0FA14 /* 동음이의어,다의어.json in Resources */,
 				CE72E8642AE76F6500988810 /* Assets.xcassets in Resources */,
 				CE72E8622AE76F6400988810 /* Main.storyboard in Resources */,
 			);
@@ -396,14 +468,22 @@
 				CE6CDD5D2AFA2B2C00DA8311 /* LoginViewController.swift in Sources */,
 				A9C4EAB62AF0B93200B35B1C /* TestViewController.swift in Sources */,
 				9A53F5282AFA3A7100D0FA14 /* wordTableViewCell.swift in Sources */,
+				CEC0AC172AFCA38B005D2445 /* EducationNounViewController.swift in Sources */,
 				A93327672AF0CAE400A91BBC /* SampleData.swift in Sources */,
 				CE6CDD602AFA2B4500DA8311 /* MainPage2ViewController.swift in Sources */,
 				CE6CDD632AFA2B5100DA8311 /* SignUpViewController.swift in Sources */,
+				CEC0AC192AFCA38B005D2445 /* RecordTestPageController.swift in Sources */,
 				CE72E85F2AE76F6400988810 /* TutorialViewController.swift in Sources */,
+				CEC0AC1C2AFCA38B005D2445 /* DetailViewController.swift in Sources */,
+				CEC0AC182AFCA38B005D2445 /* EducationVerbViewController.swift in Sources */,
 				9A53F52C2AFA7B8F00D0FA14 /* wordData.swift in Sources */,
 				CE72E85B2AE76F6400988810 /* AppDelegate.swift in Sources */,
 				CE72E85D2AE76F6400988810 /* SceneDelegate.swift in Sources */,
+				CEC0AC1D2AFCA38B005D2445 /* Mywords.swift in Sources */,
+				CEC0AC1E2AFCA38B005D2445 /* SignUpController.swift in Sources */,
+				CEC0AC1B2AFCA38B005D2445 /* QuizPageController.swift in Sources */,
 				CE6CDD612AFA2B4500DA8311 /* MainPageViewController.swift in Sources */,
+				CEC0AC1A2AFCA38B005D2445 /* Sentence.swift in Sources */,
 				A9C4EAB22AF0B89000B35B1C /* SampleRealm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
