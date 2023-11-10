@@ -17,7 +17,7 @@
 <img width="20%" height="20%" alt="image" src="https://github.com/K-TALK/K-TALK-iOS/assets/93040438/dac365f5-f7ac-4a94-9c0d-d1629641b246">
 
 #### *'ETRI OPEN API'* 를 활용하여  
-#### 외국인들이들을 위한 한국어 학습을 진행할 수 있고
+#### 외국인들을 위한 한국어 학습을 진행할 수 있고
 #### 나아가 한국인도 헷갈릴 수 있는 *동음이의어나 다의어 정보* 를 제공하는 어플리케이션을 만들었습니다.
 
 <hr>
