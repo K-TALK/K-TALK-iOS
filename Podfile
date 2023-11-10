@@ -14,6 +14,9 @@ target 'K-TALK-iOS' do
   # SwiftyJSON
   pod 'SwiftyJSON'
 
+  # ProgressHUD
+  pod 'ProgressHUD'
+
   # Pods for K-TALK-iOS
 
 end

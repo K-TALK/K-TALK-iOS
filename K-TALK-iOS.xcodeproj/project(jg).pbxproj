@@ -1,0 +1,803 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE0D84562AF3D4E70046043A /* Sentence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0D84552AF3D4E70046043A /* Sentence.swift */; };
+		CE6313D22AE7979C0073E7F2 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = CE6313D12AE7979C0073E7F2 /* FirebaseAnalytics */; };
+		CE6313D42AE7979C0073E7F2 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = CE6313D32AE7979C0073E7F2 /* FirebaseAnalyticsOnDeviceConversion */; };
+		CE6313D62AE7979C0073E7F2 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CE6313D52AE7979C0073E7F2 /* FirebaseAnalyticsSwift */; };
+		CE6313D82AE7979C0073E7F2 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = CE6313D72AE7979C0073E7F2 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		CE6313DA2AE7979C0073E7F2 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = CE6313D92AE7979C0073E7F2 /* FirebaseAuth */; };
+		CE6313DC2AE7979C0073E7F2 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = CE6313DB2AE7979C0073E7F2 /* FirebaseAuthCombine-Community */; };
+		CE6313DE2AE7979C0073E7F2 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = CE6313DD2AE7979C0073E7F2 /* FirebaseFirestore */; };
+		CE6313E02AE7979C0073E7F2 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = CE6313DF2AE7979C0073E7F2 /* FirebaseFirestoreCombine-Community */; };
+		CE6313E22AE7979C0073E7F2 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CE6313E12AE7979C0073E7F2 /* FirebaseFirestoreSwift */; };
+		CE6CDD592AFA230900DA8311 /* QuizPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6CDD582AFA230900DA8311 /* QuizPageController.swift */; };
+		CE6CDD652AFA4B3D00DA8311 /* 동음이의어,다의어.json in Resources */ = {isa = PBXBuildFile; fileRef = CE6CDD642AFA4B3D00DA8311 /* 동음이의어,다의어.json */; };
+		CE72E85B2AE76F6400988810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE72E85A2AE76F6400988810 /* AppDelegate.swift */; };
+		CE72E85D2AE76F6400988810 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE72E85C2AE76F6400988810 /* SceneDelegate.swift */; };
+		CE72E85F2AE76F6400988810 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE72E85E2AE76F6400988810 /* TutorialViewController.swift */; };
+		CE72E8622AE76F6400988810 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE72E8602AE76F6400988810 /* Main.storyboard */; };
+		CE72E8642AE76F6500988810 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE72E8632AE76F6500988810 /* Assets.xcassets */; };
+		CE72E8672AE76F6500988810 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE72E8652AE76F6500988810 /* LaunchScreen.storyboard */; };
+		CE72E8722AE76F6500988810 /* K_TALK_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE72E8712AE76F6500988810 /* K_TALK_iOSTests.swift */; };
+		CE72E87C2AE76F6500988810 /* K_TALK_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE72E87B2AE76F6500988810 /* K_TALK_iOSUITests.swift */; };
+		CE72E87E2AE76F6500988810 /* K_TALK_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE72E87D2AE76F6500988810 /* K_TALK_iOSUITestsLaunchTests.swift */; };
+		CE9E1F282AF3FD2F00E33BA9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE9E1F272AF3FD2F00E33BA9 /* GoogleService-Info.plist */; };
+		CEE97DF82AEA248200566748 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEE97DF72AEA248100566748 /* GoogleService-Info.plist */; };
+		CEF0DD462AEF9B720000C192 /* RecordTestPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0DD452AEF9B720000C192 /* RecordTestPageController.swift */; };
+		CEF0DD482AEF9C750000C192 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0DD472AEF9C750000C192 /* SignUpController.swift */; };
+		F597708B24CC15750874E79E /* Pods_K_TALK_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E1FCE52BD711C6EF220C3F /* Pods_K_TALK_iOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE72E86E2AE76F6500988810 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE72E84F2AE76F6400988810 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE72E8562AE76F6400988810;
+			remoteInfo = "K-TALK-iOS";
+		};
+		CE72E8782AE76F6500988810 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE72E84F2AE76F6400988810 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE72E8562AE76F6400988810;
+			remoteInfo = "K-TALK-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D76915BAF46835E0C376D24 /* Pods-K-TALK-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-K-TALK-iOS.release.xcconfig"; path = "Target Support Files/Pods-K-TALK-iOS/Pods-K-TALK-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		4EE5A805E144E7D3C4DEE88E /* Pods-K-TALK-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-K-TALK-iOS.debug.xcconfig"; path = "Target Support Files/Pods-K-TALK-iOS/Pods-K-TALK-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		B5E1FCE52BD711C6EF220C3F /* Pods_K_TALK_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_K_TALK_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE0D84552AF3D4E70046043A /* Sentence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sentence.swift; sourceTree = "<group>"; };
+		CE6CDD582AFA230900DA8311 /* QuizPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizPageController.swift; sourceTree = "<group>"; };
+		CE6CDD642AFA4B3D00DA8311 /* 동음이의어,다의어.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "동음이의어,다의어.json"; sourceTree = "<group>"; };
+		CE72E8572AE76F6400988810 /* K-TALK-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "K-TALK-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE72E85A2AE76F6400988810 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE72E85C2AE76F6400988810 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE72E85E2AE76F6400988810 /* TutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		CE72E8612AE76F6400988810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE72E8632AE76F6500988810 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE72E8662AE76F6500988810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE72E8682AE76F6500988810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE72E86D2AE76F6500988810 /* K-TALK-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "K-TALK-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE72E8712AE76F6500988810 /* K_TALK_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K_TALK_iOSTests.swift; sourceTree = "<group>"; };
+		CE72E8772AE76F6500988810 /* K-TALK-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "K-TALK-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE72E87B2AE76F6500988810 /* K_TALK_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K_TALK_iOSUITests.swift; sourceTree = "<group>"; };
+		CE72E87D2AE76F6500988810 /* K_TALK_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K_TALK_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE9E1F272AF3FD2F00E33BA9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CEE97DF72AEA248100566748 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CEF0DD452AEF9B720000C192 /* RecordTestPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordTestPageController.swift; sourceTree = "<group>"; };
+		CEF0DD472AEF9C750000C192 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE72E8542AE76F6400988810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6313D62AE7979C0073E7F2 /* FirebaseAnalyticsSwift in Frameworks */,
+				CE6313E02AE7979C0073E7F2 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				CE6313DC2AE7979C0073E7F2 /* FirebaseAuthCombine-Community in Frameworks */,
+				CE6313DA2AE7979C0073E7F2 /* FirebaseAuth in Frameworks */,
+				CE6313D22AE7979C0073E7F2 /* FirebaseAnalytics in Frameworks */,
+				CE6313D42AE7979C0073E7F2 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				CE6313D82AE7979C0073E7F2 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				CE6313DE2AE7979C0073E7F2 /* FirebaseFirestore in Frameworks */,
+				CE6313E22AE7979C0073E7F2 /* FirebaseFirestoreSwift in Frameworks */,
+				F597708B24CC15750874E79E /* Pods_K_TALK_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE72E86A2AE76F6500988810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE72E8742AE76F6500988810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D0557D804EE64B3CB51E9E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4EE5A805E144E7D3C4DEE88E /* Pods-K-TALK-iOS.debug.xcconfig */,
+				0D76915BAF46835E0C376D24 /* Pods-K-TALK-iOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CE72E84E2AE76F6400988810 = {
+			isa = PBXGroup;
+			children = (
+				CE72E8592AE76F6400988810 /* K-TALK-iOS */,
+				CE72E8702AE76F6500988810 /* K-TALK-iOSTests */,
+				CE72E87A2AE76F6500988810 /* K-TALK-iOSUITests */,
+				CE72E8582AE76F6400988810 /* Products */,
+				0D0557D804EE64B3CB51E9E9 /* Pods */,
+				EDC99D8003BC9E0ADD0B697B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE72E8582AE76F6400988810 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE72E8572AE76F6400988810 /* K-TALK-iOS.app */,
+				CE72E86D2AE76F6500988810 /* K-TALK-iOSTests.xctest */,
+				CE72E8772AE76F6500988810 /* K-TALK-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE72E8592AE76F6400988810 /* K-TALK-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CE6CDD642AFA4B3D00DA8311 /* 동음이의어,다의어.json */,
+				CEE97DF72AEA248100566748 /* GoogleService-Info.plist */,
+				CE9E1F272AF3FD2F00E33BA9 /* GoogleService-Info.plist */,
+				CE72E85A2AE76F6400988810 /* AppDelegate.swift */,
+				CE72E85C2AE76F6400988810 /* SceneDelegate.swift */,
+				CE72E85E2AE76F6400988810 /* TutorialViewController.swift */,
+				CEF0DD452AEF9B720000C192 /* RecordTestPageController.swift */,
+				CEF0DD472AEF9C750000C192 /* SignUpController.swift */,
+				CE0D84552AF3D4E70046043A /* Sentence.swift */,
+				CE6CDD582AFA230900DA8311 /* QuizPageController.swift */,
+				CE72E8602AE76F6400988810 /* Main.storyboard */,
+				CE72E8632AE76F6500988810 /* Assets.xcassets */,
+				CE72E8652AE76F6500988810 /* LaunchScreen.storyboard */,
+				CE72E8682AE76F6500988810 /* Info.plist */,
+			);
+			path = "K-TALK-iOS";
+			sourceTree = "<group>";
+		};
+		CE72E8702AE76F6500988810 /* K-TALK-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE72E8712AE76F6500988810 /* K_TALK_iOSTests.swift */,
+			);
+			path = "K-TALK-iOSTests";
+			sourceTree = "<group>";
+		};
+		CE72E87A2AE76F6500988810 /* K-TALK-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE72E87B2AE76F6500988810 /* K_TALK_iOSUITests.swift */,
+				CE72E87D2AE76F6500988810 /* K_TALK_iOSUITestsLaunchTests.swift */,
+			);
+			path = "K-TALK-iOSUITests";
+			sourceTree = "<group>";
+		};
+		EDC99D8003BC9E0ADD0B697B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5E1FCE52BD711C6EF220C3F /* Pods_K_TALK_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE72E8562AE76F6400988810 /* K-TALK-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE72E8812AE76F6500988810 /* Build configuration list for PBXNativeTarget "K-TALK-iOS" */;
+			buildPhases = (
+				9BD2FA6564B71173A3824D97 /* [CP] Check Pods Manifest.lock */,
+				CE72E8532AE76F6400988810 /* Sources */,
+				CE72E8542AE76F6400988810 /* Frameworks */,
+				CE72E8552AE76F6400988810 /* Resources */,
+				E876A9247BFEAA9F012E968A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "K-TALK-iOS";
+			packageProductDependencies = (
+				CE6313D12AE7979C0073E7F2 /* FirebaseAnalytics */,
+				CE6313D32AE7979C0073E7F2 /* FirebaseAnalyticsOnDeviceConversion */,
+				CE6313D52AE7979C0073E7F2 /* FirebaseAnalyticsSwift */,
+				CE6313D72AE7979C0073E7F2 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				CE6313D92AE7979C0073E7F2 /* FirebaseAuth */,
+				CE6313DB2AE7979C0073E7F2 /* FirebaseAuthCombine-Community */,
+				CE6313DD2AE7979C0073E7F2 /* FirebaseFirestore */,
+				CE6313DF2AE7979C0073E7F2 /* FirebaseFirestoreCombine-Community */,
+				CE6313E12AE7979C0073E7F2 /* FirebaseFirestoreSwift */,
+			);
+			productName = "K-TALK-iOS";
+			productReference = CE72E8572AE76F6400988810 /* K-TALK-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE72E86C2AE76F6500988810 /* K-TALK-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE72E8842AE76F6500988810 /* Build configuration list for PBXNativeTarget "K-TALK-iOSTests" */;
+			buildPhases = (
+				CE72E8692AE76F6500988810 /* Sources */,
+				CE72E86A2AE76F6500988810 /* Frameworks */,
+				CE72E86B2AE76F6500988810 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE72E86F2AE76F6500988810 /* PBXTargetDependency */,
+			);
+			name = "K-TALK-iOSTests";
+			productName = "K-TALK-iOSTests";
+			productReference = CE72E86D2AE76F6500988810 /* K-TALK-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE72E8762AE76F6500988810 /* K-TALK-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE72E8872AE76F6500988810 /* Build configuration list for PBXNativeTarget "K-TALK-iOSUITests" */;
+			buildPhases = (
+				CE72E8732AE76F6500988810 /* Sources */,
+				CE72E8742AE76F6500988810 /* Frameworks */,
+				CE72E8752AE76F6500988810 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE72E8792AE76F6500988810 /* PBXTargetDependency */,
+			);
+			name = "K-TALK-iOSUITests";
+			productName = "K-TALK-iOSUITests";
+			productReference = CE72E8772AE76F6500988810 /* K-TALK-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE72E84F2AE76F6400988810 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					CE72E8562AE76F6400988810 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					CE72E86C2AE76F6500988810 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = CE72E8562AE76F6400988810;
+					};
+					CE72E8762AE76F6500988810 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = CE72E8562AE76F6400988810;
+					};
+				};
+			};
+			buildConfigurationList = CE72E8522AE76F6400988810 /* Build configuration list for PBXProject "K-TALK-iOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE72E84E2AE76F6400988810;
+			packageReferences = (
+				CE6313D02AE7979C0073E7F2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = CE72E8582AE76F6400988810 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE72E8562AE76F6400988810 /* K-TALK-iOS */,
+				CE72E86C2AE76F6500988810 /* K-TALK-iOSTests */,
+				CE72E8762AE76F6500988810 /* K-TALK-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE72E8552AE76F6400988810 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE72E8672AE76F6500988810 /* LaunchScreen.storyboard in Resources */,
+				CEE97DF82AEA248200566748 /* GoogleService-Info.plist in Resources */,
+				CE9E1F282AF3FD2F00E33BA9 /* GoogleService-Info.plist in Resources */,
+				CE6CDD652AFA4B3D00DA8311 /* 동음이의어,다의어.json in Resources */,
+				CE72E8642AE76F6500988810 /* Assets.xcassets in Resources */,
+				CE72E8622AE76F6400988810 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE72E86B2AE76F6500988810 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE72E8752AE76F6500988810 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9BD2FA6564B71173A3824D97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-K-TALK-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E876A9247BFEAA9F012E968A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-K-TALK-iOS/Pods-K-TALK-iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-K-TALK-iOS/Pods-K-TALK-iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-K-TALK-iOS/Pods-K-TALK-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE72E8532AE76F6400988810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF0DD482AEF9C750000C192 /* SignUpController.swift in Sources */,
+				CE72E85F2AE76F6400988810 /* TutorialViewController.swift in Sources */,
+				CEF0DD462AEF9B720000C192 /* RecordTestPageController.swift in Sources */,
+				CE72E85B2AE76F6400988810 /* AppDelegate.swift in Sources */,
+				CE6CDD592AFA230900DA8311 /* QuizPageController.swift in Sources */,
+				CE0D84562AF3D4E70046043A /* Sentence.swift in Sources */,
+				CE72E85D2AE76F6400988810 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE72E8692AE76F6500988810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE72E8722AE76F6500988810 /* K_TALK_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE72E8732AE76F6500988810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE72E87E2AE76F6500988810 /* K_TALK_iOSUITestsLaunchTests.swift in Sources */,
+				CE72E87C2AE76F6500988810 /* K_TALK_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE72E86F2AE76F6500988810 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE72E8562AE76F6400988810 /* K-TALK-iOS */;
+			targetProxy = CE72E86E2AE76F6500988810 /* PBXContainerItemProxy */;
+		};
+		CE72E8792AE76F6500988810 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE72E8562AE76F6400988810 /* K-TALK-iOS */;
+			targetProxy = CE72E8782AE76F6500988810 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE72E8602AE76F6400988810 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE72E8612AE76F6400988810 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE72E8652AE76F6500988810 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE72E8662AE76F6500988810 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE72E87F2AE76F6500988810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE72E8802AE76F6500988810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE72E8822AE76F6500988810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EE5A805E144E7D3C4DEE88E /* Pods-K-TALK-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BRBLZLM3SM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "K-TALK-iOS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LJG.K-TALK-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE72E8832AE76F6500988810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D76915BAF46835E0C376D24 /* Pods-K-TALK-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BRBLZLM3SM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "K-TALK-iOS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LJG.K-TALK-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE72E8852AE76F6500988810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BRBLZLM3SM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LJG.K-TALK-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/K-TALK-iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/K-TALK-iOS";
+			};
+			name = Debug;
+		};
+		CE72E8862AE76F6500988810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BRBLZLM3SM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LJG.K-TALK-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/K-TALK-iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/K-TALK-iOS";
+			};
+			name = Release;
+		};
+		CE72E8882AE76F6500988810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BRBLZLM3SM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LJG.K-TALK-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "K-TALK-iOS";
+			};
+			name = Debug;
+		};
+		CE72E8892AE76F6500988810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BRBLZLM3SM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LJG.K-TALK-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "K-TALK-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE72E8522AE76F6400988810 /* Build configuration list for PBXProject "K-TALK-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE72E87F2AE76F6500988810 /* Debug */,
+				CE72E8802AE76F6500988810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE72E8812AE76F6500988810 /* Build configuration list for PBXNativeTarget "K-TALK-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE72E8822AE76F6500988810 /* Debug */,
+				CE72E8832AE76F6500988810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE72E8842AE76F6500988810 /* Build configuration list for PBXNativeTarget "K-TALK-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE72E8852AE76F6500988810 /* Debug */,
+				CE72E8862AE76F6500988810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE72E8872AE76F6500988810 /* Build configuration list for PBXNativeTarget "K-TALK-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE72E8882AE76F6500988810 /* Debug */,
+				CE72E8892AE76F6500988810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE6313D02AE7979C0073E7F2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.16.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE6313D12AE7979C0073E7F2 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE6313D02AE7979C0073E7F2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		CE6313D32AE7979C0073E7F2 /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE6313D02AE7979C0073E7F2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		CE6313D52AE7979C0073E7F2 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE6313D02AE7979C0073E7F2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		CE6313D72AE7979C0073E7F2 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE6313D02AE7979C0073E7F2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		CE6313D92AE7979C0073E7F2 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE6313D02AE7979C0073E7F2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		CE6313DB2AE7979C0073E7F2 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE6313D02AE7979C0073E7F2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		CE6313DD2AE7979C0073E7F2 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE6313D02AE7979C0073E7F2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		CE6313DF2AE7979C0073E7F2 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE6313D02AE7979C0073E7F2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		CE6313E12AE7979C0073E7F2 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE6313D02AE7979C0073E7F2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CE72E84F2AE76F6400988810 /* Project object */;
+}

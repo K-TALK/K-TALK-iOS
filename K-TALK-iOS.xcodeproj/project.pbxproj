@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A53F5262AFA394300D0FA14 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A53F5252AFA394300D0FA14 /* GoogleService-Info.plist */; };
+		9A53F5282AFA3A7100D0FA14 /* wordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A53F5272AFA3A7100D0FA14 /* wordTableViewCell.swift */; };
+		9A53F52C2AFA7B8F00D0FA14 /* wordData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A53F52B2AFA7B8F00D0FA14 /* wordData.swift */; };
+		A93327672AF0CAE400A91BBC /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93327662AF0CAE400A91BBC /* SampleData.swift */; };
+		A9C4EAB22AF0B89000B35B1C /* SampleRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4EAB12AF0B89000B35B1C /* SampleRealm.swift */; };
+		A9C4EAB62AF0B93200B35B1C /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4EAB52AF0B93200B35B1C /* TestViewController.swift */; };
+		A9C9763C2AFCF5FC004E35CE /* EducationMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C9763B2AFCF5FC004E35CE /* EducationMainViewController.swift */; };
 		CE6313D22AE7979C0073E7F2 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = CE6313D12AE7979C0073E7F2 /* FirebaseAnalytics */; };
 		CE6313D42AE7979C0073E7F2 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = CE6313D32AE7979C0073E7F2 /* FirebaseAnalyticsOnDeviceConversion */; };
 		CE6313D62AE7979C0073E7F2 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CE6313D52AE7979C0073E7F2 /* FirebaseAnalyticsSwift */; };
@@ -16,6 +23,10 @@
 		CE6313DE2AE7979C0073E7F2 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = CE6313DD2AE7979C0073E7F2 /* FirebaseFirestore */; };
 		CE6313E02AE7979C0073E7F2 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = CE6313DF2AE7979C0073E7F2 /* FirebaseFirestoreCombine-Community */; };
 		CE6313E22AE7979C0073E7F2 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CE6313E12AE7979C0073E7F2 /* FirebaseFirestoreSwift */; };
+		CE6CDD5D2AFA2B2C00DA8311 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6CDD5C2AFA2B2C00DA8311 /* LoginViewController.swift */; };
+		CE6CDD602AFA2B4500DA8311 /* MainPage2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6CDD5E2AFA2B4500DA8311 /* MainPage2ViewController.swift */; };
+		CE6CDD612AFA2B4500DA8311 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6CDD5F2AFA2B4500DA8311 /* MainPageViewController.swift */; };
+		CE6CDD632AFA2B5100DA8311 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6CDD622AFA2B5100DA8311 /* SignUpViewController.swift */; };
 		CE72E85B2AE76F6400988810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE72E85A2AE76F6400988810 /* AppDelegate.swift */; };
 		CE72E85D2AE76F6400988810 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE72E85C2AE76F6400988810 /* SceneDelegate.swift */; };
 		CE72E85F2AE76F6400988810 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE72E85E2AE76F6400988810 /* TutorialViewController.swift */; };
@@ -25,7 +36,17 @@
 		CE72E8722AE76F6500988810 /* K_TALK_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE72E8712AE76F6500988810 /* K_TALK_iOSTests.swift */; };
 		CE72E87C2AE76F6500988810 /* K_TALK_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE72E87B2AE76F6500988810 /* K_TALK_iOSUITests.swift */; };
 		CE72E87E2AE76F6500988810 /* K_TALK_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE72E87D2AE76F6500988810 /* K_TALK_iOSUITestsLaunchTests.swift */; };
-		CEE642EF2AE91516006BD216 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEE642EE2AE91516006BD216 /* GoogleService-Info.plist */; };
+		CEC0AC172AFCA38B005D2445 /* EducationNounViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC0AC0F2AFCA38B005D2445 /* EducationNounViewController.swift */; };
+		CEC0AC182AFCA38B005D2445 /* EducationVerbViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC0AC102AFCA38B005D2445 /* EducationVerbViewController.swift */; };
+		CEC0AC192AFCA38B005D2445 /* RecordTestPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC0AC112AFCA38B005D2445 /* RecordTestPageController.swift */; };
+		CEC0AC1A2AFCA38B005D2445 /* Sentence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC0AC122AFCA38B005D2445 /* Sentence.swift */; };
+		CEC0AC1B2AFCA38B005D2445 /* QuizPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC0AC132AFCA38B005D2445 /* QuizPageController.swift */; };
+		CEC0AC1C2AFCA38B005D2445 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC0AC142AFCA38B005D2445 /* DetailViewController.swift */; };
+		CEC0AC1D2AFCA38B005D2445 /* Mywords.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC0AC152AFCA38B005D2445 /* Mywords.swift */; };
+		CEC0AC1E2AFCA38B005D2445 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC0AC162AFCA38B005D2445 /* SignUpController.swift */; };
+		CED043272AFC9FB300D1F240 /* 동음이의어,다의어.json in Resources */ = {isa = PBXBuildFile; fileRef = CED043262AFC9FB300D1F240 /* 동음이의어,다의어.json */; };
+		CEFFBE8A2AFD0CA3004820DD /* UITabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFFBE892AFD0CA3004820DD /* UITabBar.swift */; };
+		CEFFBE8C2AFD0DC2004820DD /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFFBE8B2AFD0DC2004820DD /* TabBarController.swift */; };
 		F597708B24CC15750874E79E /* Pods_K_TALK_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E1FCE52BD711C6EF220C3F /* Pods_K_TALK_iOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,7 +70,18 @@
 /* Begin PBXFileReference section */
 		0D76915BAF46835E0C376D24 /* Pods-K-TALK-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-K-TALK-iOS.release.xcconfig"; path = "Target Support Files/Pods-K-TALK-iOS/Pods-K-TALK-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		4EE5A805E144E7D3C4DEE88E /* Pods-K-TALK-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-K-TALK-iOS.debug.xcconfig"; path = "Target Support Files/Pods-K-TALK-iOS/Pods-K-TALK-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		9A53F5252AFA394300D0FA14 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9A53F5272AFA3A7100D0FA14 /* wordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wordTableViewCell.swift; sourceTree = "<group>"; };
+		9A53F52B2AFA7B8F00D0FA14 /* wordData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wordData.swift; sourceTree = "<group>"; };
+		A93327662AF0CAE400A91BBC /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		A9C4EAB12AF0B89000B35B1C /* SampleRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleRealm.swift; sourceTree = "<group>"; };
+		A9C4EAB52AF0B93200B35B1C /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		A9C9763B2AFCF5FC004E35CE /* EducationMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationMainViewController.swift; sourceTree = "<group>"; };
 		B5E1FCE52BD711C6EF220C3F /* Pods_K_TALK_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_K_TALK_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6CDD5C2AFA2B2C00DA8311 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CE6CDD5E2AFA2B4500DA8311 /* MainPage2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPage2ViewController.swift; sourceTree = "<group>"; };
+		CE6CDD5F2AFA2B4500DA8311 /* MainPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		CE6CDD622AFA2B5100DA8311 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		CE72E8572AE76F6400988810 /* K-TALK-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "K-TALK-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE72E85A2AE76F6400988810 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE72E85C2AE76F6400988810 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,7 +95,17 @@
 		CE72E8772AE76F6500988810 /* K-TALK-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "K-TALK-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE72E87B2AE76F6500988810 /* K_TALK_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K_TALK_iOSUITests.swift; sourceTree = "<group>"; };
 		CE72E87D2AE76F6500988810 /* K_TALK_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K_TALK_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		CEE642EE2AE91516006BD216 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CEC0AC0F2AFCA38B005D2445 /* EducationNounViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EducationNounViewController.swift; sourceTree = "<group>"; };
+		CEC0AC102AFCA38B005D2445 /* EducationVerbViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EducationVerbViewController.swift; sourceTree = "<group>"; };
+		CEC0AC112AFCA38B005D2445 /* RecordTestPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordTestPageController.swift; sourceTree = "<group>"; };
+		CEC0AC122AFCA38B005D2445 /* Sentence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sentence.swift; sourceTree = "<group>"; };
+		CEC0AC132AFCA38B005D2445 /* QuizPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizPageController.swift; sourceTree = "<group>"; };
+		CEC0AC142AFCA38B005D2445 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CEC0AC152AFCA38B005D2445 /* Mywords.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mywords.swift; sourceTree = "<group>"; };
+		CEC0AC162AFCA38B005D2445 /* SignUpController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		CED043262AFC9FB300D1F240 /* 동음이의어,다의어.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "동음이의어,다의어.json"; path = "../../../Downloads/동음이의어,다의어.json"; sourceTree = "<group>"; };
+		CEFFBE892AFD0CA3004820DD /* UITabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITabBar.swift; sourceTree = "<group>"; };
+		CEFFBE8B2AFD0DC2004820DD /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,13 +177,19 @@
 		CE72E8592AE76F6400988810 /* K-TALK-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				CEE642EE2AE91516006BD216 /* GoogleService-Info.plist */,
+				CEC0AC242AFCA8D0005D2445 /* TestPage */,
+				CEC0AC232AFCA8BD005D2445 /* MainPage */,
+				CEC0AC222AFCA8A3005D2445 /* AuthPage */,
+				CEC0AC212AFCA874005D2445 /* WordPage */,
+				CEC0AC202AFCA869005D2445 /* QuizPage */,
+				CEC0AC1F2AFCA845005D2445 /* RecordPage */,
 				CE72E85A2AE76F6400988810 /* AppDelegate.swift */,
 				CE72E85C2AE76F6400988810 /* SceneDelegate.swift */,
-				CE72E85E2AE76F6400988810 /* TutorialViewController.swift */,
 				CE72E8602AE76F6400988810 /* Main.storyboard */,
-				CE72E8632AE76F6500988810 /* Assets.xcassets */,
 				CE72E8652AE76F6500988810 /* LaunchScreen.storyboard */,
+				CE72E8632AE76F6500988810 /* Assets.xcassets */,
+				CED043262AFC9FB300D1F240 /* 동음이의어,다의어.json */,
+				9A53F5252AFA394300D0FA14 /* GoogleService-Info.plist */,
 				CE72E8682AE76F6500988810 /* Info.plist */,
 			);
 			path = "K-TALK-iOS";
@@ -162,6 +210,69 @@
 				CE72E87D2AE76F6500988810 /* K_TALK_iOSUITestsLaunchTests.swift */,
 			);
 			path = "K-TALK-iOSUITests";
+			sourceTree = "<group>";
+		};
+		CEC0AC1F2AFCA845005D2445 /* RecordPage */ = {
+			isa = PBXGroup;
+			children = (
+				CEC0AC112AFCA38B005D2445 /* RecordTestPageController.swift */,
+			);
+			path = RecordPage;
+			sourceTree = "<group>";
+		};
+		CEC0AC202AFCA869005D2445 /* QuizPage */ = {
+			isa = PBXGroup;
+			children = (
+				CEC0AC132AFCA38B005D2445 /* QuizPageController.swift */,
+			);
+			path = QuizPage;
+			sourceTree = "<group>";
+		};
+		CEC0AC212AFCA874005D2445 /* WordPage */ = {
+			isa = PBXGroup;
+			children = (
+				CE6CDD5E2AFA2B4500DA8311 /* MainPage2ViewController.swift */,
+				CEC0AC142AFCA38B005D2445 /* DetailViewController.swift */,
+				9A53F5272AFA3A7100D0FA14 /* wordTableViewCell.swift */,
+				CEC0AC0F2AFCA38B005D2445 /* EducationNounViewController.swift */,
+				A9C9763B2AFCF5FC004E35CE /* EducationMainViewController.swift */,
+				CEC0AC102AFCA38B005D2445 /* EducationVerbViewController.swift */,
+				CEC0AC152AFCA38B005D2445 /* Mywords.swift */,
+				CEC0AC122AFCA38B005D2445 /* Sentence.swift */,
+				9A53F52B2AFA7B8F00D0FA14 /* wordData.swift */,
+			);
+			path = WordPage;
+			sourceTree = "<group>";
+		};
+		CEC0AC222AFCA8A3005D2445 /* AuthPage */ = {
+			isa = PBXGroup;
+			children = (
+				CE72E85E2AE76F6400988810 /* TutorialViewController.swift */,
+				CE6CDD5C2AFA2B2C00DA8311 /* LoginViewController.swift */,
+				CE6CDD622AFA2B5100DA8311 /* SignUpViewController.swift */,
+				CEC0AC162AFCA38B005D2445 /* SignUpController.swift */,
+			);
+			path = AuthPage;
+			sourceTree = "<group>";
+		};
+		CEC0AC232AFCA8BD005D2445 /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				CEFFBE8B2AFD0DC2004820DD /* TabBarController.swift */,
+				CEFFBE892AFD0CA3004820DD /* UITabBar.swift */,
+				CE6CDD5F2AFA2B4500DA8311 /* MainPageViewController.swift */,
+			);
+			path = MainPage;
+			sourceTree = "<group>";
+		};
+		CEC0AC242AFCA8D0005D2445 /* TestPage */ = {
+			isa = PBXGroup;
+			children = (
+				A93327662AF0CAE400A91BBC /* SampleData.swift */,
+				A9C4EAB12AF0B89000B35B1C /* SampleRealm.swift */,
+				A9C4EAB52AF0B93200B35B1C /* TestViewController.swift */,
+			);
+			path = TestPage;
 			sourceTree = "<group>";
 		};
 		EDC99D8003BC9E0ADD0B697B /* Frameworks */ = {
@@ -292,8 +403,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED043272AFC9FB300D1F240 /* 동음이의어,다의어.json in Resources */,
 				CE72E8672AE76F6500988810 /* LaunchScreen.storyboard in Resources */,
-				CEE642EF2AE91516006BD216 /* GoogleService-Info.plist in Resources */,
+				9A53F5262AFA394300D0FA14 /* GoogleService-Info.plist in Resources */,
 				CE72E8642AE76F6500988810 /* Assets.xcassets in Resources */,
 				CE72E8622AE76F6400988810 /* Main.storyboard in Resources */,
 			);
@@ -362,9 +474,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE6CDD5D2AFA2B2C00DA8311 /* LoginViewController.swift in Sources */,
+				A9C4EAB62AF0B93200B35B1C /* TestViewController.swift in Sources */,
+				9A53F5282AFA3A7100D0FA14 /* wordTableViewCell.swift in Sources */,
+				CEC0AC172AFCA38B005D2445 /* EducationNounViewController.swift in Sources */,
+				A93327672AF0CAE400A91BBC /* SampleData.swift in Sources */,
+				CEFFBE8C2AFD0DC2004820DD /* TabBarController.swift in Sources */,
+				CE6CDD602AFA2B4500DA8311 /* MainPage2ViewController.swift in Sources */,
+				CE6CDD632AFA2B5100DA8311 /* SignUpViewController.swift in Sources */,
+				CEFFBE8A2AFD0CA3004820DD /* UITabBar.swift in Sources */,
+				CEC0AC192AFCA38B005D2445 /* RecordTestPageController.swift in Sources */,
 				CE72E85F2AE76F6400988810 /* TutorialViewController.swift in Sources */,
+				CEC0AC1C2AFCA38B005D2445 /* DetailViewController.swift in Sources */,
+				CEC0AC182AFCA38B005D2445 /* EducationVerbViewController.swift in Sources */,
+				9A53F52C2AFA7B8F00D0FA14 /* wordData.swift in Sources */,
 				CE72E85B2AE76F6400988810 /* AppDelegate.swift in Sources */,
 				CE72E85D2AE76F6400988810 /* SceneDelegate.swift in Sources */,
+				CEC0AC1D2AFCA38B005D2445 /* Mywords.swift in Sources */,
+				CEC0AC1E2AFCA38B005D2445 /* SignUpController.swift in Sources */,
+				A9C9763C2AFCF5FC004E35CE /* EducationMainViewController.swift in Sources */,
+				CEC0AC1B2AFCA38B005D2445 /* QuizPageController.swift in Sources */,
+				CE6CDD612AFA2B4500DA8311 /* MainPageViewController.swift in Sources */,
+				CEC0AC1A2AFCA38B005D2445 /* Sentence.swift in Sources */,
+				A9C4EAB22AF0B89000B35B1C /* SampleRealm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
